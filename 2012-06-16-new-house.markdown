@@ -1,0 +1,24 @@
+title: New house and new engine
+date: 2012-06-16 12:13
+slug: 2012-06-16-new-house
+tag: bynario 
+
+So, here we go again...
+
+It's been a while since I moved this blog to [blogger](http://blogger.com), and I think it's about time to move it back to a hosting I can manage.
+
+###New house
+
+So I decided to move [bynario.com](http://bynario.com) to a [VPS](http://en.wikipedia.org/wiki/Virtual_private_server)... There are very good deals outside, and you can get your own VPS for 10 euros per month. Obviously, the specs of the virtual machine you can get for that money won't allow you to run a site like [Slashdot](http://slashdot.org), but I don't expect too many visits.
+
+I have to say that Blogger is a great platform. It allows you to use your own domain name, it's free, very reliable and really easy to use. 
+
+Actually, too easy. I am not very interested in blogging "per se" (don't have too much to say), so I see this more like a tool to stay tuned with new technologies, and who knows, someone could even find something interesting here.
+
+###New engine
+
+Instead of using any of the popular blog engines available (usually based on Apache+PHP+MySQL), like [Wordpress](http://wordpress.org), [Drupal](http://drupal.org), etc, I decided to give Octopress a try. You can find all the information about what it is and how to install it in [Octopress website](http://octopress.org). 
+
+I still have to migrate all the post from Blogger (thanks to this [post](http://approache.com/blog/migrating-from-blogger-to-octopress/) seems to be really easy) and customize the whole site a little bit. I don't know if this will take me hours, days, weeks or even years ;)
+
+See you around...

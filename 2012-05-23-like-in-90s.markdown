@@ -1,0 +1,10 @@
+title: Like in the 90's
+date: 2012-05-23 14:35:00
+slug: 2012-05-23-like-in-90s
+tag: internet
+
+This reminds me of the good old days, when upgrading Potato or Woody (Debian) took more than 5 minutes :)
+
+{% img center http://3.bp.blogspot.com/--2zxxYOi2y4/T7zXm7WrhnI/AAAAAAAANxU/12fnKzeCFQk/s1600/upgrading_cygwin.JPG 320 300  %}
+
+Doesn't really matter which server I choose... Download speed sucks :)
