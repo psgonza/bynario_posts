@@ -1,6 +1,7 @@
 title: PERL: Checking Google Reader subscriptions status
 slug: 2012-02-21-perl-checking-google-reader-subscriptions-status
 date: 2012-02-21 08:53:00
+category: posts
 tag:  scripts,PERL
 
 RSS subscriptions in my Google Reader account have reached an indecent number. I am subscribed to 398 sites (blogs, forums or whatever).

@@ -1,6 +1,7 @@
 title: Monitoring remote systems: Using GTalk notifications
 date: 2012-08-05 13:52
 slug: 2012-08-05-monitoring-remote-systems-using-gtalk-notifications
+category: posts
 tag: xmpp , notifications
 
 Since a few weeks ago I am using a [Raspberry Pi](http://raspberrypi.org) as bittorrent client instead of my old, big and noisy Pentium III 1Ghz

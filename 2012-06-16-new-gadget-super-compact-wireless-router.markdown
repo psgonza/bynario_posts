@@ -1,5 +1,6 @@
 title: New gadget: Super compact wireless router
 date: 2012-06-02 16:55:00
+category: posts
 tag: routing , gadgets , japan
 
 I am staying a few weeks in Japan, and it seems that here, most of the hotels still offer wired LAN as the only way to connect to the internet, instead of WiFi ([I'm sorry, are you from the past?](http://www.youtube.com/watch?v=TKYQ5ibxslI)).

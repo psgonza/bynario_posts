@@ -1,6 +1,7 @@
 title: Video: Apache Kafka User Group
 date: 2012-06-17 07:52
 slug: 2012-06-17-video-apache-kafka-user-group
+category: posts
 tag: linux , talks , videos
 
 Another interesting talk about [Apache Kafka](http://incubator.apache.org/kafka/) for your Sunday evening...   

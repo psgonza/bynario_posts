@@ -1,5 +1,6 @@
 title: PHOTO: London Sunset from Lambeth bridge
 date: 2011-02-12 18:21:00
+category: posts
 tag: photos
 slug: 2011-02-12-photo-london-sunset-from-lambeth-bridge
 

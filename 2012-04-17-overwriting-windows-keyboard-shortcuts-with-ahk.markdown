@@ -1,6 +1,7 @@
 title: Overwriting Windows keyboard shortcuts with AHK
 date: 2012-04-17 14:06:00+02:00
 slug: 2012-04-17-overwriting-windows-keyboard-shortcuts-with-ahk
+category: posts
 tag: scripts , AHK
 
 I was looking for an easy way to put my screen on sleep mode when I locked my laptop using WINDOWS - L, and also to mute the music player (in my case, foobar2000 or spotify)

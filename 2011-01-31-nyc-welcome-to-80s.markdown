@@ -1,5 +1,6 @@
 title: NYC: Welcome to the '80s
 date: 2011-01-31 15:55:00
+category: posts
 tag: photos
 slug: 2011-01-31-nyc-welcome-to-80s
 

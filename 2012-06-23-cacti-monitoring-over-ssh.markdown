@@ -1,6 +1,7 @@
 title: Cacti monitoring over SSH
 date: 2012-06-23 09:26
 slug: 2012-06-23-cacti-monitoring-over-ssh
+category: posts
 tag:  linux , sysadmin , devop , monitoring
 
 Recently I had to configure [Cacti](http://www.cacti.net/) in order to monitor several blades in a cluster (nothing fancy, just CPU load, memory usage, load average and disk space) but this time NET-SNMP wasn't an option. I knew that I could use server scripts to access the remote blades using SSH, so after googling a while, I found this proejct from the Percona guys:

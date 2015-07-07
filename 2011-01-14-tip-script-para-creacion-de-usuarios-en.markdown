@@ -1,6 +1,7 @@
 title: "TIP: Script para creacion de usuarios en Linux"
 date: 2011-01-14T03:23:00+01:00
 slug: 2011-01-14-tip-script-para-creacion-de-usuarios-en.markdown
+category: posts
 tag:  linux, bash
 
 In case you need to define a lot of users in a Unix/Linux box, this small script could save you some time:

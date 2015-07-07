@@ -1,6 +1,7 @@
 layout: post
 title: "TIP: Script para convertir Doc a RFT"
 date: 2011-01-19T15:41:00+01:00
+category: posts
 tag: scripts
 slug: 2011-01-19-tip-script-para-convertir-doc-rft
 

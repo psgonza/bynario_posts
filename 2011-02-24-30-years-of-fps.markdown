@@ -1,5 +1,6 @@
 title: 30 years of FPS
 date: 2011-02-24 15:06:00
+category: posts
 tag: youtube
 slug: 2011-02-24-30-years-of-fps
 

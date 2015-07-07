@@ -1,6 +1,7 @@
 title: Python: print table from dictionary of lists
 date: 2014-07-31 13:14
 slug: 2014-07-31-python-print-table-from-dictionary
+category: posts
 tag: python , coding , dictionary , tables
 
 {% img center https://dl.dropboxusercontent.com/u/14814182/blog/python-logo-inkscape.jpg  'python' %}

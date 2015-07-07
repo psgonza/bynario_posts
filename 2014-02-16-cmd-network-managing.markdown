@@ -1,6 +1,7 @@
 title: Network manager for windows 7 using cmd.exe
 date: 2014-02-16 13:14
 slug: 2014-02-16-cmd-network-managing
+category: posts
 tag: - windows , networking , coding
 ---
 {% img center https://dl.dropboxusercontent.com/u/14814182/blog/cmd_exe.JPG 'cmd.exe' %}

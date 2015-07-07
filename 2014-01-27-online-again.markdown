@@ -1,6 +1,7 @@
 title: Online again
 date: 2014-01-27 13:14
 slug: 2014-01-27-online-again
+category: posts
 tag: bynario
 
 It's been a while.... but better late than never, isn't it? I am back online (I never left, but this site didn't come back after a VPS migration)...  

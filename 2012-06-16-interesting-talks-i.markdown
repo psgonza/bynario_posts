@@ -1,6 +1,7 @@
 title: Interesting talks (I)
 date: 2012-06-03 11:51:00+02:00
 slug: 2012-06-16-interesting-talks-i
+category: posts
 tag: linux , talks , youtube
 
 Sunday again...

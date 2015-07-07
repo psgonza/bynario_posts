@@ -1,6 +1,7 @@
 title: From Octopress to Pelican
 slug: 2015-07-07-from-octopress-to-pelican
 date: 2015-07-07 23:00
+category: posts
 tag: bynario, blogging, octopress, pelican
 
 Finally I had some time to move away from Octopress... After trying a couple of [Python static web generators](https://wiki.python.org/moin/StaticSiteGenerator) I decided to give [Pelican](http://getpelican.com) a try.

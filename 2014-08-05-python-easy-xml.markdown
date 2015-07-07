@@ -1,6 +1,7 @@
 title: Python: Parsing XML files
 date: 2014-08-05 13:14
 slug: 2014-08-05-python-easy-xml
+category: posts
 tag: - python , coding , dictionary , tables
 
 {% img center https://dl.dropboxusercontent.com/u/14814182/blog/python-xml.jpg  'xml' %}

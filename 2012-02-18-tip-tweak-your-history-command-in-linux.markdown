@@ -1,5 +1,6 @@
 title: TIP: Tweak your history command in Linux
 date: 2012-02-18 23:18:00
+category: posts
 tag:  linux , bash
 
 Note to self:    

@@ -1,6 +1,7 @@
 title: Sometimes there is no need to complicated
 slug: 2012-05-24-sometimes-there-is-no-need-to
 date: 2012-05-24 14:56:00
+category: posts
 tag: linux , internet
 
 No images, no CSS, no fancy ajax or javascript files and more important no flash... Plain and simple text.
