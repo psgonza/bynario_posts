@@ -1,9 +1,9 @@
-tittle: Issues with Synology 2FA
+title: Issues with Synology 2FA
 slug: 2015-07-11-issues-with-synology-2fa
 date: 2015-07-11 00:00
 category: posts
 tag: synology, nas, ntp
-Status: draft
+status: draft
 
 Hi there
 
