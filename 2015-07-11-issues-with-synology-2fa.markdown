@@ -13,10 +13,10 @@ After a few months in the shelf, today I reconnected my [Synology DS215j](https:
 
 It was weird because:
 
-  a) (you are going to love this one...) ***"It was working before"*** :) I have the same user, password and mobile app. 
+  a) (you are going to love this one...) ***"It was working before"***  
   b) I could login to my NAS via SSH with the same user/pass, so it was clearly a problem with the 2 Factor Authethication
 
-Once in the CLI, I realized the system time was wrong:
+Once in SYNOLOGY CLI, I realized the system time was wrong:
 
 {% img center https://dl.dropboxusercontent.com/u/14814182/blog/synology_2fa_error.png 'ntp mismatch' %}
 
@@ -25,10 +25,10 @@ As you can (hopefully) see in the picture, the time in the SYNOLOGY CLI (23:58:1
 So I connected to the NAS with root password (rather sooner than later I would need to "enable" sudo and block root user in SSH) and updated the date by running:
 
 ```
-ntpdate -u 24.56.178.140
+ntpdate -u pool.ntp.org
 ```
 
-(If this isn't working, try killing ```ntpd``` and run ```ntpdate -u 24.56.178.140``` again)
+(If this isn't working, try killing ```ntpd``` and run ```ntpdate -u pool.ntp.org``` again)
 
 After that, I managed to login using my 2FA code as expected... 
 
