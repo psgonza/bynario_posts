@@ -3,7 +3,6 @@ slug: 2015-07-14-sharing-images-like-a-pro
 date: 2015-07-14 13:00
 category: posts
 tag: images, internet, cli
-status: draft
 
 > Disclaimer: it's summer, we are under a really long heat wave in Spain, so I didn't feel like moving from the couch (you will understand later :D)
 
