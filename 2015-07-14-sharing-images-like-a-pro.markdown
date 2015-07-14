@@ -1,6 +1,6 @@
 title: Sharing images like a "Pr0"
-slug: 2015-07-14-Sharing-images-like-a-pro
-date: 2015-07-14 130:00
+slug: 2015-07-14-sharing-images-like-a-pro
+date: 2015-07-14 13:00
 category: posts
 tag: images, internet, cli
 status: draft
