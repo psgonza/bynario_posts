@@ -5,16 +5,15 @@ category: posts
 tag: images, internet, cli
 status: draft
 
-Disclaimer: it's summer, we are under a really long heat wave in Spain, so I didn't feel like moving from the couch (you will understand later)
+>> Disclaimer: it's summer, we are under a really long heat wave in Spain, so I didn't feel like moving from the couch (you will understand later)
 
 Yesterday evening I was laying on the couch surfing Amazon website using an old laptop (very old) that I barely use, and at some point, I took an screenshot I needed to share with a friend via corporate email... (my idea was to send it to my email account, and this morning, send it from my corporate account)
 
 Anyway, after taking the screenshot I realized:
 
-1. I was no logged in gmail, dropbox, github, etc , and in order to login, I would need a token from my cellphone  (and my smartphone was in a different room!!!)
-2. No USB drives around
-
-3. The image sharing alternatives that I know of, requires you to create an user and  login… Too much for a onetime thing
+  * I was no logged in gmail, dropbox, github, etc , and in order to login, I would need a token from my cellphone  (and my smartphone was in a different room!!!)
+  * No USB drives around
+  * The image sharing alternatives that I know of, requires you to create an user and  login… Too much for a onetime thing
 
 So I decided to use [pastebin](http://pastebin.com/) to store the image in text format:
 
