@@ -5,7 +5,7 @@ tag: python, rss, scripts
 category: posts
 status: draft
 
-(I wrote this post in my way back to the old continent... According to the map, we were flying above [Jarenga river](–), in the mother Russia) 
+(I wrote this post in my way back to the old continent... According to the map, we were flying above [Jarenga river](https://en.wikipedia.org/wiki/Yarenga_River), in the mother Russia) 
 
 I don't know about you, but I have been using RSS clients since, well, foverer I would say... First [Akregator](https://www.kde.org/applications/internet/akregator/) in KDE, then Google Reader (I still wonder why Google had to shut it down) and finally, as most of the people did, I moved to [Feedly](http://feedly.com), and I am pretty happy with it, no complains at all.
 
@@ -13,7 +13,7 @@ A few days ago I was taking a look at my RSS subscriptions and there were more t
 
 I came up with the script you can see below... It is fairly simple (and it uses only standard library modules) but does the job for me. 
 
-In order to use it, you just need to export your feedly subscriptios (you will get an opml file) and execute the script and you will get a new file without the "dead" links ready to be imported.
+In order to use it, you just need to export your feedly subscriptios (you will get an opml file) and execute the script. You will get a new file without the "dead" links ready to be imported.
 
 Usage:
 
@@ -22,7 +22,6 @@ python3 feedly_checker.py myfeedlyrss.opml
 ´´´
 
 Code:
-
 
 ```
 #!/usr/bin/python3
@@ -117,5 +116,5 @@ sys.exit(0)
 ```
 
 As usual, there is ***a lot*** of room for improvement... 
-1) It is not quick, because it is single-thread, and it has to wait for the http connection to timeout
-2) Any error code above 400 will make the link to be removed... Some error codes 5xx are "temporary server errors", but after a couple of executions,those as well.
+1. It is not quick, because it is single-thread, and it has to wait for the http connection to timeout.
+2. Any error code above 400 will make the link to be removed... Some error codes 5xx are "temporary server errors", but after a couple of executions,those as well.
