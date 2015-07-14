@@ -5,7 +5,7 @@ category: posts
 tag: images, internet, cli
 status: draft
 
->> Disclaimer: it's summer, we are under a really long heat wave in Spain, so I didn't feel like moving from the couch (you will understand later)
+> Disclaimer: it's summer, we are under a really long heat wave in Spain, so I didn't feel like moving from the couch (you will understand later :D)
 
 Yesterday evening I was laying on the couch surfing Amazon website using an old laptop (very old) that I barely use, and at some point, I took an screenshot I needed to share with a friend via corporate email... (my idea was to send it to my email account, and this morning, send it from my corporate account)
 
@@ -39,6 +39,6 @@ Et voila, we have the same picture….
 
 {%  img center https://dl.dropboxusercontent.com/u/14814182/blog/2015-07-14-Sharing-images-like-a-pro.jpg  amazon%}
 
-This is not very useful (or yes, who knows?) but you might use the same approach for different things… Actually, I use pretty much the same thing in Python for embedding an old version of [pexpect]( https://github.com/pexpect/pexpect) module in my scripts
+I know this doesn't seem very useful (or yes, who knows?) but you might follow the same approach for other things… For instance, I use pretty much the same thing in Python for embedding an old version of [pexpect]( https://github.com/pexpect/pexpect) module in my scripts
 
 Later
