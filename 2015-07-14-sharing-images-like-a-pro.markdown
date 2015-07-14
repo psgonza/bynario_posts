@@ -12,21 +12,29 @@ Yesterday evening I was laying on the couch surfing Amazon website using an old 
 Anyway, after taking the screenshot I realized:
 
 1) I was no logged in gmail, dropbox, github, etc , and in order to login, I would need a token from my cellphone  (and my smartphone was in a different room!!!)
+
 2) No USB drives around
+
 3) The image sharing alternatives that I know of, requires you to create an user and  login… Too much for a onetime thing
 
 So I decided to use [pastebin](http://pastebin.com/) to store the image in text format:
 
 1) Take the screenshot (I used scrot, feel free to use any other tool…) : ```scrot -d 5 ~/amazon.jpg```
+
 2) Gzip the file: ```gzip ~/amazon.jpg```
+
 3) Convert to base64: ```base64 ~/amazon.jpg.gz > ~/amazon.b64```
+
 4) Cat the file and paste the (long) result into pastebin and write down the  [url](http://pastebin.com/rgXncvEz9)
 
 This morning from my corporate laptop:
 
 5) Download the file from pastebin (save it as amazon.b64)
+
 6) Set file format UNIX... For instance, using vi: ESC:set ff=unix
+
 7) Decode it:```base64 -d amazon.b64 > amazon.jpg.gz```
+
 8) Unzip it: ```gunzip amazon.jpg.gz```
 
 Et voila, we have the same picture….
