@@ -48,11 +48,11 @@ from gzip import GzipFile
 
 4. Import the module, or create it if it doesn't exist:
 
-	```
+```
 try:      
-	import pexpect       
+	import pexpect
 except ImportError:  
-	#Copy and paste the base64 code from step 1
+	\#Copy and paste the base64 code from step 1
 	pexpect_mod = """   
 	H4sICFG7GFUAA2luY19wZXhwZWN0LnB5AKxbe3PbNrbX58C43RG8laWnXQ7veud7F3FlhNtbdkj  
 	[...]
@@ -60,7 +60,7 @@ except ImportError:
 	AA==   
 	"""
 
-#MD5 sum from step 2
+\#MD5 sum from step 2
 pexpect_mod_md5 = "1d9643479e2bf16939fcdf007f4bf9f9"
 
 #Decode the module stored in pexpect_mod and load it in a variable
