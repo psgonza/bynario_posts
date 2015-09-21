@@ -60,26 +60,26 @@ except ImportError:
 	AA==   
 	"""
 
-#MD5 sum from step 2
-pexpect_mod_md5 = "1d9643479e2bf16939fcdf007f4bf9f9"
-
-#Decode the module stored in pexpect_mod and load it in a variable
-with GzipFile(mode='r', fileobj=StringIO(b64decode(pexpect_mod))) as pexpect_mod_fd:
-    pexpect_mod_data = pexpect_mod_fd.read()
-
-#Dump the variable into a file
-with open("pexpect.py","w+b") as pexpect_fd:
-    pexpect_fd.write(pexpect_mod_data)
-
-#Double-check pexpect.py is the same file you have in your local machine    
-with open("pexpect.py", 'rb') as pexpect_fd:
-	if pexpect_mod_md5 == md5(pexpect_fd.read()).hexdigest():
- 		#Import the module
-		import pexpect
-    else:
-		#Exit if the file is not identical 
-		print("Error creating pexpect.py module. MD5 checksum incorrect. Exiting")
-		sys.exit(-1)
+	#MD5 sum from step 2
+	pexpect_mod_md5 = "1d9643479e2bf16939fcdf007f4bf9f9"
+	
+	#Decode the module stored in pexpect_mod and load it in a variable
+	with GzipFile(mode='r', fileobj=StringIO(b64decode(pexpect_mod))) as pexpect_mod_fd:
+	    pexpect_mod_data = pexpect_mod_fd.read()
+	
+	#Dump the variable into a file
+	with open("pexpect.py","w+b") as pexpect_fd:
+	    pexpect_fd.write(pexpect_mod_data)
+	
+	#Double-check pexpect.py is the same file you have in your local machine    
+	with open("pexpect.py", 'rb') as pexpect_fd:
+		if pexpect_mod_md5 == md5(pexpect_fd.read()).hexdigest():
+	 		#Import the module
+			import pexpect
+	    else:
+			#Exit if the file is not identical 
+			print("Error creating pexpect.py module. MD5 checksum incorrect. Exiting")
+			sys.exit(-1)
 ```
 
 And voila, just you run your script in your remote machine, and there you have the module in your current directory:
