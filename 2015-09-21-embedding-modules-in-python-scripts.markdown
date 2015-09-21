@@ -20,67 +20,67 @@ Simple stuff.... This is the procedure for python 2.x:
 
 1. Get the base64 code of the [module](https://raw.githubusercontent.com/psgonza/bynario/master/pexpect.py):
 
-	```
-	LOCAL $ gzip -c pexpect.py | base64   
-	H4sICFG7GFUAA2luY19wZXhwZWN0LnB5AKxbe3PbNrbX58C43RG8laWnXQ7veud7F3FlhNtbdkj
-	[...]   
-	8Ys0SwQW+DuQhDqXlYSw8fuPPtrNbsrDtjn65LC5Nf8xR4nZvEa2O5y1R0uUHA4/+n+riV9boSgB    
-	AA==
-	$
-	```
+```
+LOCAL $ gzip -c pexpect.py | base64
+H4sICFG7GFUAA2luY19wZXhwZWN0LnB5AKxbe3PbNrbX58C43RG8laWnXQ7veud7F3FlhNtbdkj
+[...]
+8Ys0SwQW+DuQhDqXlYSw8fuPPtrNbsrDtjn65LC5Nf8xR4nZvEa2O5y1R0uUHA4/+n+riV9boSgB
+AA==
+$
+```
 
 2. Get MD5 checksum:
 
-	```	
-	LOCAL $ md5sum pexpect.py
-	1d9643479e2bf16939fcdf007f4bf9f9 *pexpect.py
-	```
+```	
+LOCAL $ md5sum pexpect.py
+1d9643479e2bf16939fcdf007f4bf9f9 *pexpect.py
+```
 
 3. Add the necessary modules to the script:
 	
-	```
-	import sys
-	from hashlib import md5 
-	from cStringIO import StringIO    
-	from base64 import b64decode 
-	from gzip import GzipFile
-	```
+```
+import sys
+from hashlib import md5 
+from cStringIO import StringIO    
+from base64 import b64decode 
+from gzip import GzipFile
+```
 
 4. Import the module, or create it if it doesn't exist:
 
 	```
-	try:      
-		import pexpect       
-	except ImportError:  
-		#Copy and paste the base64 code from step 1
-		pexpect_mod = """   
-		H4sICFG7GFUAA2luY19wZXhwZWN0LnB5AKxbe3PbNrbX58C43RG8laWnXQ7veud7F3FlhNtbdkj  
-		[...]
-		8Ys0SwQW+DuQhDqXlYSw8fuPPtrNbsrDtjn65LC5Nf8xR4nZvEa2O5y1R0uUHA4/+n+riV9boSgB    
-		AA==   
-		"""
-	
-	# MD5 sum from step 2
-	pexpect_mod_md5 = "1d9643479e2bf16939fcdf007f4bf9f9"
+try:      
+	import pexpect       
+except ImportError:  
+	#Copy and paste the base64 code from step 1
+	pexpect_mod = """   
+	H4sICFG7GFUAA2luY19wZXhwZWN0LnB5AKxbe3PbNrbX58C43RG8laWnXQ7veud7F3FlhNtbdkj  
+	[...]
+	8Ys0SwQW+DuQhDqXlYSw8fuPPtrNbsrDtjn65LC5Nf8xR4nZvEa2O5y1R0uUHA4/+n+riV9boSgB    
+	AA==   
+	"""
 
-	# Decode the module stored in pexpect_mod and load it in a variable
-    with GzipFile(mode='r', fileobj=StringIO(b64decode(pexpect_mod))) as pexpect_mod_fd:
-            pexpect_mod_data = pexpect_mod_fd.read()
-    
-	# Dump the variable into a file
-    with open("pexpect.py","w+b") as pexpect_fd:
-        pexpect_fd.write(pexpect_mod_data)
-        
-	# Double-check pexpect.py is the same file you have in your local machine    
-    with open("pexpect.py", 'rb') as pexpect_fd:
-        if pexpect_mod_md5 == md5(pexpect_fd.read()).hexdigest():
-         	# Import the module
-			import pexpect
-    	else:
-			#Exit if the file is not identical 
-			print("Error creating pexpect.py module. MD5 checksum incorrect. Exiting")
-			sys.exit(-1)
-	```
+#MD5 sum from step 2
+pexpect_mod_md5 = "1d9643479e2bf16939fcdf007f4bf9f9"
+
+#Decode the module stored in pexpect_mod and load it in a variable
+with GzipFile(mode='r', fileobj=StringIO(b64decode(pexpect_mod))) as pexpect_mod_fd:
+    pexpect_mod_data = pexpect_mod_fd.read()
+
+#Dump the variable into a file
+with open("pexpect.py","w+b") as pexpect_fd:
+    pexpect_fd.write(pexpect_mod_data)
+
+#Double-check pexpect.py is the same file you have in your local machine    
+with open("pexpect.py", 'rb') as pexpect_fd:
+	if pexpect_mod_md5 == md5(pexpect_fd.read()).hexdigest():
+ 		#Import the module
+		import pexpect
+    else:
+		#Exit if the file is not identical 
+		print("Error creating pexpect.py module. MD5 checksum incorrect. Exiting")
+		sys.exit(-1)
+```
 
 And voila, just you run your script in your remote machine, and there you have the module in your current directory:   
      
