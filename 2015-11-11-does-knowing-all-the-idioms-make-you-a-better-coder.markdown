@@ -3,7 +3,6 @@ date: 2015-11-11 11:11:11
 slug: 2015-11-11-does-knowing-all-the-idioms-make-you-a-better-coder
 tag: python, coding, opinion
 category: posts
-status: draft
 
 (Disclaimer: I do not code for a living...)
 
@@ -13,7 +12,7 @@ I understand you cannot be a good python developer if you don’t know your lang
 
 Let me put a very basic example. Not sure if you know about [checkio](http://www.checkio.org/), a game/community/platform for learning (or improving) python (100% recommended by the way), where you have hundreds of “missions” (tasks to be solved by using Python), and you can share your solutions with the rest of the community…  This is the most interesting part by far, because you can compare your code, and (in my case) realize how bad it is 
 
-For example, one of the missions asks you to write the code for transposing any given matrix, which could be easily achieved  in 10 lines if you understand the concept:
+For example, one of the missions asks you to write the code for transposing any given matrix, which could be easily achieved  in 7 lines of code if you understand the concept:
 
 Python:
 ```
