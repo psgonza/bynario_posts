@@ -1,4 +1,4 @@
-title: does knowing all the idioms/built-in functions make you a better coder?
+title: Does knowing all the idioms/built-in functions make you a better coder?
 date: 2015-11-11 11:11:11
 slug: 2015-11-11-does-knowing-all-the-idioms-make-you-a-better-coder
 tag: python, coding, opinion
@@ -45,6 +45,7 @@ On the other hand, if I were a python developer, I could come up with something 
 
 Python using built-in functions:
 ```
+matrix =[[1,2,3], [4,5,6], [7,8,9]]
 transpose = list(map(list, zip(*matrix)))
 ```
 
@@ -52,8 +53,8 @@ transpose = list(map(list, zip(*matrix)))
 
 Ok, I love one-liners as much as the next guy and  I agree that is a great Pythonic answer… But it makes me wonder:
 
-* Is that code easy to  read and understand?  I don’t think anyone with basic/average python skills can understand it.
-* When performance is not an issue, why not writing a small piece of code instead of relying in a function you don't even know how works?   I am not a python developer (truth being told, I am not even a developer), so for me it is more interesting to understand how to solve a problem than solving it…  Because I can use the same approach in any other language if needed.
-* Are we better developers if we use list/map/zip in the same line? Probably the short answer is yes. I think there is no such thing as “generalist developer”, most of people know a lot about just one language, and if you are really (really) good, you could know 2 or maybe 3 , but that is not that common… So yes, if you want to be a “pr0” python programmer, you would need to know all these python idioms, built-in functions and modules that makes Python so great. 
+* __Is that code easy to  read and understand?__  I don’t think anyone with basic/average python skills can understand it.
+* __When performance is not an issue, why not writing a small piece of code instead of relying in a function you don't even know how works?__  I am not a python developer (truth being told, I am not even a developer), so for me it is more interesting to understand how to solve a problem than solving it…  Because I can use the same approach in any other language if needed.
+* __Are we better developers if we use list/map/zip in the same line?__ Probably the short answer is yes. I think there is no such thing as “generalist developer”, most of people know a lot about just one language, and if you are really (really) good, you could know 2 or maybe 3 , but that is not that common… So yes, if you want to be a “pr0” python programmer, you would need to know all these python idioms, built-in functions and modules that makes Python so great. 
 
 For the “n00b”/average  programmers as myself, yeah, they are cool, save a few lines and are damn fast so I use some of them, but you know,  it is not that important.
