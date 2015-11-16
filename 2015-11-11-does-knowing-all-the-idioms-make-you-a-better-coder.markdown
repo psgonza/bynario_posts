@@ -10,7 +10,7 @@ I like coding in Python, it is my go-to language for almost everything nowadays.
 
 I understand you cannot be a good python developer if you don’t know your language, but unless you write python code 24/7, I think we shouldn’t focus on writing 100% pythonic code…. It is not worth it.
 
-Let me put a very basic example. Not sure if you know about [checkio](http://www.checkio.org/), a game/community/platform for learning (or improving) python (100% recommended by the way), where you have hundreds of “missions” (tasks to be solved by using Python), and you can share your solutions with the rest of the community…  This is the most interesting part by far, because you can compare your code, and (in my case) realize how bad it is 
+Let me put a very basic example. Not sure if you know about [checkio](http://www.checkio.org/), a game/community/platform for learning (or improving) python (100% recommended by the way), where you have hundreds of “missions” (tasks to be solved by using Python), and you can share your solutions with the rest of the community…  This is the most interesting part by far, because you can compare your code, and (in my case) realize how bad it is :)
 
 For example, one of the missions asks you to write the code for transposing any given matrix, which could be easily achieved  in 7 lines of code if you understand the concept:
 
