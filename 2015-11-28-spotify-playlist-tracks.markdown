@@ -3,17 +3,16 @@ date: 2015-11-28 11:28:15
 slug: 2015-11-28-spotify-playlist-tracks
 tag: spotify, python
 category: posts
-status: draft
 
-I've never really understood why Spotify doesn't allow me to export my playlist into text file... I guess there is a reason (I bet they have one), but just don't see it...
+I've never really understood why Spotify doesn't allow me to export my playlists into text file... I guess there is a reason (I bet they have a good one), but I just don't see it.
 
-Anyway, sometimes it's quicker to fix the problem yourself than go complain somewhere else.
+Anyway, most of the times it's quicker to try to fix the problem yourself than waiting for other to fix it...
 
-Since Spotify has a nice API (with no auth needed) for [getting tracks information](https://developer.spotify.com/web-api/get-track/) available, I created a small script that would iterate over the songs in my playlist, and printout the information (Artist - Album - Song)
+Since Spotify has a nice API (with no auth needed) for [getting tracks information](https://developer.spotify.com/web-api/get-track/) available, I created a small script that would iterate over the songs in my playlist, and printout the information (Artist - Album - Song), and I though it might be usefull for someone else.
 
 First of all, get the list of Spotify URIs from all the songs in your play list:
 
-* CRL-A in your playlist.
+* Navigate to your playlist in Spotify, and select all the songs (CRL-A).
 * Click "Copy Spotify URI" from the context menu.
 * Paste in a new file ie: "myplaylist.txt"
 
@@ -26,7 +25,10 @@ spotify:track:39J10NL0mFTAdJbapoo2rC
 spotify:track:3G0EKJZy0j3rMG077UawaC
 spotify:track:5VdVaUBgj7cBTKplgaIhKu
 spotify:track:2EBuFjexd3S3wc9m4Rerh8
+...
 ```
+
+The idea is to call Spotify API for each track id (`spotify:track:<track id>`) in the `myplaylist.txt` file, get the json response and parse the artist,album and song information... As simple as that.
 
 See below the [script](https://raw.githubusercontent.com/psgonza/bynario/master/spotify_playlist.py):
 
