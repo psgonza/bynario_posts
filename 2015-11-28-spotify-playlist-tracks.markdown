@@ -9,7 +9,7 @@ I've never really understood why Spotify doesn't allow me to export my playlist 
 
 Anyway, sometimes it's quicker to fix the problem yourself than go complain somewhere else.
 
-Since Spotify has a nice API (with no auth needed) for [getting tracks information](https://developer.spotify.com/web-api/get-track/] available, I created a small script that would iterate over the songs in my playlist, and printout the information (Artist - Album - Song)
+Since Spotify has a nice API (with no auth needed) for [getting tracks information](https://developer.spotify.com/web-api/get-track/) available, I created a small script that would iterate over the songs in my playlist, and printout the information (Artist - Album - Song)
 
 First of all, get the list of Spotify URIs from all the songs in your play list:
 
@@ -126,6 +126,7 @@ for track in sorted(mytracks,key=lambda k: k['artist']):
 ```
 
 2) I have decided to take it easy with Spotify servers, so I added `sleep 2` between each query.
+
 3) No concurrency, multi-threading, etc... I don't plan to run the script on regular basis, so no need to spend more time on this.
 
 Execution example:
@@ -143,3 +144,5 @@ Alice In Chains - Jar Of Flies - Rotten Apple
 Alice In Chains - Jar Of Flies - Nutshell
 Alien Ant Farm - Anthology - Smooth Criminal
 ``` 
+
+I know, I know... Only great hits in my [playlist](http://cdn.bynario.com/playlist.htm) :)
