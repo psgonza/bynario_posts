@@ -14,7 +14,7 @@ Earlier this year I was in a business trip in Tokyo when spring came, and with t
 
 First I tried to take my Amazon kindle with me, but it slows you down and you end up walking really slowly. Then I tried with audiobooks, not a bad solution at all, but not cheap (more expensive than kindle books for sure), and I'd rather read at the same time I enjoy a cup of coffee...
 
-So not sure why, podcasts came back to my mind... I had already listen some of them in my laptop every now and then, but never really bothered to used my Android phone as a media player. And they were exactly what I was after:
+So not sure why, podcasts came back to my mind... I had already listen some of them in my laptop every now and then, but never really bothered to use my Android phone as a media player. And they were exactly what I was after:
 
 1 - They are not a replacement for the blog post, but it might be the closest thing.
 
