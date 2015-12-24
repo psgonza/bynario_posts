@@ -17,8 +17,11 @@ First I tried to take my Amazon kindle with me, but it slows you down and you en
 So not sure why, podcasts came back to my mind... I had already listen some of them in my laptop every now and then, but never really bothered to used my Android phone as a media player. And they were exactly what I was after:
 
 1 - They are not a replacement for the blog post, but it might be the closest thing.
+
 2 - You can listen to them while you walk/run/conmute/whatever.
+
 3 - They are really cheap (some of them have sponsors or ask you for donation).
+
 4 - There are several nice Android apps that handle the subscrition for you.
 
 The number of available podcast is incredible. In my case I am mostly interested in technology, but I am sure that, on any given topic you are insterested in, there are several podcasts out there waiting for you (speaking english makes it easier of course). 
