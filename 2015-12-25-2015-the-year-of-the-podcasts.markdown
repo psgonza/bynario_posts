@@ -32,19 +32,16 @@ This is my current [Podcast Addict](https://play.google.com/store/apps/details?i
 - [The Ship show](http://theshipshow.com/)
 - [DevOps Cafe](http://devopscafe.org/)
 - [The Food Fight Show](http://foodfight.libsyn.com)
-
 - [Bad Voltage](http://www.badvoltage.org/)
 - [This Week In Tech (TWiT)](https://twit.tv/shows/this-week-in-tech)
 - [This Week in Google](http://twit.tv/twig)
 - [Danielmiessler](https://danielmiessler.com/podcast/)
 - [Floss Weekly](https://twit.tv/shows/floss-weekly)
 - [Pauldotcom security weekly](http://securityweekly.com/portfolio/security-weekly/)
-
 - [Talk Python To Me](http://talkpython.fm/)
 - [Python Test Podcast](http://pythontesting.net/test-podcast/)
 - [Podcast.__init__](http://podcastinit.com/)
 - [From Python import podcast](http://frompythonimportpodcast.com/) (Not active)
-
 - [Serial podcast](http://serialpodcast.org/) (Season 2 just started. It is more like a radio serial from the 1960's)
 - [In our time: Science](http://www.bbc.co.uk/programmes/p01gyd7j)
 
