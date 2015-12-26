@@ -1,9 +1,8 @@
 title: Mail notification system in 2 minutes
 date: 2015-12-27 11:11:11
 slug: 2015-12-27-mail-notification-system-in-2-minutes
-tag: technology, VPS, linux
+tag: VPS, linux, monitoring
 category: posts
-status: draft
 
 Quick post... In case you'd like to set up a quick mail notification system for your linux machines, keep reading, otherwise, have a merry Xmas...
 
