@@ -3,7 +3,6 @@ Date: 2016-1-1 1:1:16 +0200
 Slug: 2016-1-1-my-books-in-2015
 category: posts
 tag: bynario
-status: draft
 
 [Googreads](https://www.goodreads.com) is a great social media platform for reading lovers... It allows you to discover new books, keep track of your reading (it is even integrated with Amazon Kidle) or recommend books to your friends... If reading is one of your hibbies, you should check it out.
  
