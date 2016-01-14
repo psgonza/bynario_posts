@@ -10,8 +10,10 @@ Here's a few things about Apple iPhone6 that have been bugging me lately:
 
 2 - Playing around with the same phone, I pressed the home button (btw, who can live with only one button?? for everything!! are you crazy?) for long enough to invoke Siri, with the phone locked... And she answered to me!!! Let me repeat it.. I long-pressed the home button, I asked Siri to "call mum" (not my mum obviously because it wasn't my phone) from another person locked phone... I would say it is a huge security flaw to allow anyone to make calls that way. Shame on you Apple, again.
 
-\\psgonza
+\\\psgonza
 
 PS1: I am not an Android/Google fanboy... I own a MBP and I cannot complain, it just works.
+
 PS2: Probably these two things I mentioned are not new if you are an iPhone user, which I am not...
+
 PS3: Ranting is free :P
