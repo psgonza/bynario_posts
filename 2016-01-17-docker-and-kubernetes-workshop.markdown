@@ -2,7 +2,7 @@ Title: Docker and Kubernetes Workshop
 Date: 2016-01-17 1:17:17 +0200
 Slug: 2016-01-17-docker-and-kubernetes-workshop
 category: posts
-tag: docker,kubernetes
+tag: docker kubernetes
 
 Yesterday I attended a very interesting workshop in [ShuttleCloud](https://www.shuttlecloud.com/) offices in Madrid about [Docker](https://www.docker.com/) and [Kubernetes](http://kubernetes.io/)...
 
