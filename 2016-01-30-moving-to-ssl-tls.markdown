@@ -12,4 +12,4 @@ Let's Encrypt certs have a ninety-day lifetime, so make sure you renew your cert
 
 As a final note, if you are running a static blog generator as myself, don't forget to modify your config file and replace "http://" by "https://".
 
-///psgonza
+\\\psgonza
