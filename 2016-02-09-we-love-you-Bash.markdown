@@ -1,6 +1,6 @@
 title: We love you Bash
 date: 2016-02-09 11:11:11
-slug: 2016-02-09-we-love-you-Bash
+slug: 2016-02-09-we-love-you-bash
 tag: linux, bash
 category: posts
 status: draft
@@ -21,7 +21,7 @@ attr2: {"reporting": [{"name":"Total","reportingLevel":"total","subscription":"A
 
 (the real data was a little bit larger, this is just an example)
 
-It was supposed to be something really quick and simple, one of those one-liners you write in 3 seconds… I said to myself: bash + loop + echo + redirection to file = WIN 
+It was supposed to be something really quick and simple, one of those one-liners you write in 3 seconds… I said to myself: **bash + loop + echo + redirection to file = WIN**
 
 Well, it proved me wrong :
 
@@ -41,9 +41,9 @@ attr2: {\"reporting\": [{\"name\":\"Total\",\"reportingLevel\":\"total\",\"subsc
 done
 ```
 
-So I issue that command, and went out for a bite… 30 minutes later, the [fraking](http://en.battlestarwiki.org/wiki/Frak) thing was still running!!!  How was that even possible…
+So I issued that command, and went out for a bite… 30 minutes later, the [fraking](http://en.battlestarwiki.org/wiki/Frak) thing was still running!!!  How was that even possible…
 
-I realized I was opening the file every time I wrote a line, a nonsense… so I just stopped the script and tweaked it a little bit… Result: pretty much the same…  Here's some figures with only 5000 iterations per loop with different redirections:
+I realized I was opening the file every time I wrote a line, a nonsense… so I just stopped the script and tweaked it a little bit… **Result: pretty much the same…**  Here's some figures with only 5000 iterations per loop with different redirections:
 
 Initial redirection:
 
@@ -92,7 +92,7 @@ sys     1m38.678s
 
 So all in all, as you can see, Bash IO redirection performance, basically sucks.
 
-A 20 lines python script (with no optimization whatsoever) is able to generate the whole ldif file (with 70.000 entries to modify)  in less than 1 second:
+A 20 lines python script (with no optimization whatsoever) is able to generate the whole ldif file (creating 70.000 entries to modify) in less than 1 second:
 
 ```
 #!/usr/bin/env python
@@ -111,7 +111,7 @@ with open("modify.ldif",'w') as outputF:
         outputF.write(data.replace("XXXXXXXXXX ",str(iter)))
 ```
 
-Execution it:
+Executing it:
 
 ```
 # time python gen_ldif.py
@@ -120,4 +120,8 @@ user    0m0.108s
 sys     0m0.052s
 ```
 
-So yeah, we love you Bash… Even though you are really slow sometimes 
+How about that? Sometimes it's just better to use the right tool for the right job...
+
+So yeah, we love you Bash… Even though you are really slow sometimes.
+
+\\\psgonza
