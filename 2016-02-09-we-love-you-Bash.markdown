@@ -3,7 +3,6 @@ date: 2016-02-09 11:11:11
 slug: 2016-02-09-we-love-you-bash
 tag: linux, bash
 category: posts
-status: draft
 
 We love you Bash… but sometimes you are so damn slow
 
