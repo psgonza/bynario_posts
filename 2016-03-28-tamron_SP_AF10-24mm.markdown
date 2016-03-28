@@ -6,7 +6,7 @@ category: posts
 
 I am not a pro photographer and don't like to spend a fortune in gear for my camera, but I've always wanted to by a ultrawide lense...
 
-I had the opportunity to buy the (http://www.dpreview.com/reviews/tamron-10-24-3p5-5p6-n15)[Tamron SP AF10-24mm] for a decent price, and so far I am liking it... See a couple of pics I took a few days ago:
+I had the opportunity to buy the [Tamron SP AF10-24mm](http://www.dpreview.com/reviews/tamron-10-24-3p5-5p6-n15) for a decent price, and so far I am liking it... See a couple of pics I took a few days ago:
 
 {% img center https://dl.dropboxusercontent.com/u/14814182/blog/2016-03-21.jpg%}
 
