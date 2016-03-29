@@ -10,7 +10,7 @@ I had the opportunity to buy the [Tamron SP AF10-24mm](http://www.dpreview.com/r
 
 {% img center https://dl.dropboxusercontent.com/u/14814182/blog/DSC_2861.jpg 'Shibuya crossing'%}
 
-{% img center https://dl.dropboxusercontent.com/u/14814182/blog/DSC_2618.jpg 'Zenkō-ji Nagano'%}
+{% img center https://dl.dropboxusercontent.com/u/14814182/blog/DSC_2618.jpg 'Zenko-ji Nagano'%}
 
 {% img center https://dl.dropboxusercontent.com/u/14814182/blog/2016-03-21.jpg 'Matsumoto Castle'%}
 
