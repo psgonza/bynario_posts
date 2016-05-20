@@ -1,8 +1,10 @@
 title: Photographs (20-05-16)
-date: 20-05-16 11:53:45
-slug: 20-05-16-photographs_20-05-16
+date: 2016-05-16 11:53:45
+slug: 2016-05-16-photographs_2016-05-16
 tag: photos
 category: posts
+status: draft 
+
 
 Spanish jamon is conquering the world!!! :)
 
