@@ -9,7 +9,9 @@ status: draft
 
 I tried to compile the cli version in my cygwin setup earlier today following their [documentation](https://github.com/vysheng/tg/blob/master/README-Cygwin.md), and I came across a couple of issues.
 
-** 1) Patching `Makefile` and `loop.c` didn't work:  **
+** 1) Patching failed: **
+
+I couldn't patch `Makefile` and Hunk #1 failed in `loop.c` as well:
 
 ```
 20:34:26@tg$ patch -p1 < telegram-cli-cygwin.patch
@@ -41,9 +43,9 @@ I updated the first lines of `Makefile` with the changes stated in the [patch fi
 11 LINK_FLAGS=${LDFLAGS} ${LOCAL_LDFLAGS}
 ```
 
-One of the two changes in `loop.c` went though, and I tried to fix the faulty one, but nothing worked, so I guess it is no longer neccessary... 
+Since `loop.c` was partially patched already, I tried to manually fix `Hunk #1`, but nothing worked, so I guess it is no longer neccessary... 
 
-I managed to generate the binaries after these changes... But it still refused to work.
+I managed to generate the binary file after patching `Makefile`... But it still refused to work.
 
 ** 2) Error assertion "0" failed: file "tgl/mtproto-utils.c", line 101, function: BN2ull **
 
@@ -63,7 +65,7 @@ I: config dir=[/home/user/.telegram-cli]
 [/home/user/.telegram-cli/downloads] created
 > SIGNAL received
 No libexec. Backtrace disabled
-**assertion "0" failed: file "tgl/mtproto-utils.c", line 101, function: BN2ull**
+assertion "0" failed: file "tgl/mtproto-utils.c", line 101, function: BN2ull
 ```
 
 The solution seems to be remove (or comment out) lines 101 and 115 in `tgl/mtproto-utils.c`:
