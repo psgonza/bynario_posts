@@ -27,18 +27,18 @@ Probably the patch file is not updated with the latest telegram-cli changes, so 
 I updated the first lines of `Makefile` with the changes stated in the [patch file](https://gist.github.com/ied206/d774a445f36004d263ab):
 
 ```
-    1 srcdir=.
-    2
-    3 CFLAGS=-g -O2
-    4 LDFLAGS= -L/usr/local/lib -L/usr/lib -L/usr/lib -L/usr/lib
-    5 CPPFLAGS= -I/usr/local/include -I/usr/include -I/usr/include  -I/usr/include/python3.4m -I/usr/include
-    6 DEFS=-DHAVE_CONFIG_H
-    7
-    8 COMPILE_FLAGS=${CFLAGS} ${CPFLAGS} ${CPPFLAGS} ${DEFS} -Wall -Werror -Wextra -Wno-missing-field-initializers 
-       -Wno-deprecated-declarations -fno-strict-aliasing -fn      o-omit-frame-pointer -ggdb -Wno-unused-parameter
-    9 EXTRA_LIBS=-ljansson -lconfig -lz -levent -lm   -lreadline -llua-5.2  -lpython3.4m -lssl -lcrypto
-   10 LOCAL_LDFLAGS=-ggdb -levent ${EXTRA_LIBS} -ldl -lpthread -lutil
-   11 LINK_FLAGS=${LDFLAGS} ${LOCAL_LDFLAGS}
+1 srcdir=.
+2
+3 CFLAGS=-g -O2
+4 LDFLAGS= -L/usr/local/lib -L/usr/lib -L/usr/lib -L/usr/lib
+5 CPPFLAGS= -I/usr/local/include -I/usr/include -I/usr/include  -I/usr/include/python3.4m -I/usr/include
+6 DEFS=-DHAVE_CONFIG_H
+7
+8 COMPILE_FLAGS=${CFLAGS} ${CPFLAGS} ${CPPFLAGS} ${DEFS} -Wall -Werror -Wextra -Wno-missing-field-initializers 
+   -Wno-deprecated-declarations -fno-strict-aliasing -fn      o-omit-frame-pointer -ggdb -Wno-unused-parameter
+9 EXTRA_LIBS=-ljansson -lconfig -lz -levent -lm   -lreadline -llua-5.2  -lpython3.4m -lssl -lcrypto
+10 LOCAL_LDFLAGS=-ggdb -levent ${EXTRA_LIBS} -ldl -lpthread -lutil
+11 LINK_FLAGS=${LDFLAGS} ${LOCAL_LDFLAGS}
 ```
 
 One of the two changes in `loop.c` went though, and I tried to fix the faulty one, but nothing worked, so I guess it is no longer neccessary... 
@@ -93,4 +93,4 @@ I: config dir=[/home/user/.telegram-cli]
 
 I hope it helps!
 
-\\psgonza
+\\\psgonza
