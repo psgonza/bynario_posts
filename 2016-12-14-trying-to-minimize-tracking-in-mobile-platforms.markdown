@@ -2,9 +2,9 @@ title: Trying to minimize tracking in mobile platforms
 date: 2016-12-14
 slug: 2016-12-14-trying-to-minimize-tracking-in-mobile-platforms
 tag: internet, privacy, ads
-category: drafts
+category: posts
 
-Random thoughs about how to reduce your "big data footprint"
+Random thoughts about how to reduce your "big data footprint"
 
 ** 1) Social networks **
 
@@ -24,7 +24,7 @@ Quick examples:
 
   b) Another discussion about smart trackers, another search and 15 minutes later I am seeing promoted posts in Facebook.
 
-Probably I was using Chrome Browser and Google Search for this, so not only FB is to blame... And I don't mind Mark making loads of money sharing (should I say "selling"?) people's info, but just not mine... 
+Probably I was using Chrome Browser and Google Search for this, so not only FB is to blame... And don't get me wrong, I don't mind Mark making loads of money sharing (should I say "selling"?) people's info (life?), but just not mine... 
 
 As I said, I already removed Facebook Android application from my phone (and you should probably do the same) and I was using my main browser (Chrome) to log in, but third-party cookies are not helping here... I have decided to use Firefox browser mainly for Facebook. It was already installed in my smartphone, so I simply created a shortcut to the FB url in the "desktop"
 
@@ -46,10 +46,10 @@ Some other applications such as GMail, GMaps, Youtube, GDocs, etc are not so eas
 
 And one step further: disable GPS, disable WLAN when not connected, remove old SSIDs from your WLAN, disable Google history, and location services... There are many things to do if you are concerned about your privacy. However, being connected 24/7 means there will be a track of your activities/locations somewhere, like it or not.
 
-Trying to keep the same level of privacy as in 1990's, where people were unable to reach you if you weren't at home, is kind of impossible nowadays. Embrace it or go find a nice cave because you are goint to have a hard time in the next 5-10 years. And rest assured that not only companies like Google, FB, Apple are willing to track you... Bad guys and goverments have a lot of interest in your digital life as well...
+Trying to keep the same level of privacy as in 1990's, where people were unable to reach you if you weren't at home, is kind of impossible nowadays. Embrace it or go find a nice cave because you are going to have a hard time in the next 5-10 years. 
 
 [Let's be careful out there](https://www.youtube.com/watch?v=Jmg86CRBBtw)
 
 //psgonza
 
-
+PS: And rest assured that not only companies like Google, FB, Apple, Amazon, etc are willing to track you... Bad guys and goverments have a lot of interest in your digital life as well...
