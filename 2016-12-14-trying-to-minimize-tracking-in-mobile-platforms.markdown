@@ -6,7 +6,7 @@ category: drafts
 
 Random thoughs about how to reduce your "Bigdata footprint"
 
-1) Social networks 
+** 1) Social networks 
 
 I have managed to reduce my "wasted" time in social networks to the bare minimum... 
 
@@ -18,11 +18,11 @@ But the tracking ads in FB are driving me crazy.
 
 Quick examples: 
 
-a) I was having a discussion with some friends about portable espresso machines (yes, they do exist), so I googled it and went on with my life. Next time I logged in FB, there it was... Portable espresso machine
+  a) I was having a discussion with some friends about portable espresso machines (yes, they do exist), so I googled it and went on with my life. Next time I logged in FB, there it was... Portable espresso machine:
 
 {% img center https://dl.dropboxusercontent.com/u/14814182/blog/photo_2016-12-14_11-38-13.jpg 'ads' %}
 
-b) Another discussion about smart trackers, another search and 15 minutes later I am seeing promoted posts in Facebook.
+  b) Another discussion about smart trackers, another search and 15 minutes later I am seeing promoted posts in Facebook.
 
 Probably I was using Chrome Browser and Google Search for this, so not only FB is to blame... And I don't mind Mark making loads of money sharing (should I say "selling"?) people's info, but just not mine... 
 
@@ -30,7 +30,7 @@ As I said, I already removed Facebook Android application from my phone (and you
 
 If you are not a heavy FB user, this will do the job... It is better than the FB lite application, and you will be able to isolate your browsing history from your FB session (I'm sorry Mark)
 
-2) Google ads + location
+** 2) Google ads + location
 
 It's not easy to stay away from Google when you are using Android devices... I am a happy [CyanogenMod](https://www.cyanogenmod.org/blog) user (both in my OnePlus One and my old Samsung S3) but Google services are the core of the OS, and, truth being told, they tend to make your life easier. It comes with a price, of course: "If You're Not Paying for It, You're the Product"
 
@@ -50,6 +50,6 @@ Trying to keep the same level of privacy as in 1990's, where people were unable 
 
 [Let's be careful out there](https://www.youtube.com/watch?v=Jmg86CRBBtw)
 
-///psgonza
+//psgonza
 
 
