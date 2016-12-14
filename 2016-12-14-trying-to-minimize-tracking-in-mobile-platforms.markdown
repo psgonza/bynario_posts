@@ -46,7 +46,7 @@ Some other applications such as GMail, GMaps, Youtube, GDocs, etc are not so eas
 
 And one step further: disable GPS, disable WLAN when not connected, remove old SSIDs from your WLAN, disable Google history, and location services... There are many things to do if you are concerned about your privacy. However, being connected 24/7 means there will be a track of your activities/locations somewhere, like it or not.
 
-Trying to keep the same level of privacy as in 1990's, where people were unable to reach you if you weren't at home, is kind of impossible nowadays. Embrace it or go find a nice cave because you are going to have a hard time in the next 5-10 years. 
+Trying to keep the same level of privacy as in 1990's, when people were unable to reach you if you weren't at home, is kind of impossible nowadays. Embrace it or go find a nice cave because you are going to have a hard time in the next 5-10 years. 
 
 [Let's be careful out there](https://www.youtube.com/watch?v=Jmg86CRBBtw)
 
