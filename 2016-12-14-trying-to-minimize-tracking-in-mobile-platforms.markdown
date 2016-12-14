@@ -4,9 +4,9 @@ slug: 2016-12-14-trying-to-minimize-tracking-in-mobile-platforms
 tag: internet, privacy, ads
 category: drafts
 
-Random thoughs about how to reduce your "Bigdata footprint"
+Random thoughs about how to reduce your "big data footprint"
 
-** 1) Social networks 
+** 1) Social networks **
 
 I have managed to reduce my "wasted" time in social networks to the bare minimum... 
 
@@ -30,7 +30,7 @@ As I said, I already removed Facebook Android application from my phone (and you
 
 If you are not a heavy FB user, this will do the job... It is better than the FB lite application, and you will be able to isolate your browsing history from your FB session (I'm sorry Mark)
 
-** 2) Google ads + location
+** 2) Google ads + location **
 
 It's not easy to stay away from Google when you are using Android devices... I am a happy [CyanogenMod](https://www.cyanogenmod.org/blog) user (both in my OnePlus One and my old Samsung S3) but Google services are the core of the OS, and, truth being told, they tend to make your life easier. It comes with a price, of course: "If You're Not Paying for It, You're the Product"
 
