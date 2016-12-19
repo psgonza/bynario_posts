@@ -2,11 +2,13 @@ title: Geolocating your holidays
 date: 2016-12-20
 slug: 2016-12-20-geolocating-your-holidays
 tag: python, geotagging, google
-category: draft
+category: posts
+
+Hi there
 
 Tinkering with Python once again... Just for the sake of it :)
 
-The idea is to generate a web page containing a Google Map with marks of your photo timestamps. I'm pretty sure Google Photos is able to do something similar (and better), but where's the fun in that? 
+The idea is to generate a web page containing a Google Map with marks of your photo timestamps, geolocated in the map. I'm pretty sure Google Photos is able to do something similar (and better), but where's the fun in that? 
 
 For instance, I spent a few days in Kauai this summer, and this is the resulting map:
 
