@@ -1,6 +1,6 @@
 Title: My books in 2016
-Date: 2017-1-1 1:1:17 +0200
-Slug: 2017-1-1-my-books-in-2017
+Date: 2017-01-01 01:01:17 +0200
+Slug: 2017-01-01-my-books-in-2017
 category: posts
 tag: bynario
 
