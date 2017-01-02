@@ -1,0 +1,37 @@
+Title: My 2016 in photos
+Date: 2017-01-02 02:02:17 +0200
+Slug: 2017-01-02-my-2016-in-photos
+category: posts
+tag: bynario
+
+(Pretty big pictures, sorry about that)
+
+Saying hello to another year with some pictures... 2016 is been a good year, both personally and professionally:
+
+- I've been working in Japan for several months again... Best place for living as expat (IMO)
+
+{% img center https://dl.dropboxusercontent.com/u/14814182/blog/2016_japan.jpg  'Japan' %}
+
+- April: I never really liked south east Asia that much (too hot for my taste), but I have to say I had a really good time in Vietnam and Cambodia... Looking forward to going back there soon!
+
+{% img center https://dl.dropboxusercontent.com/u/14814182/blog/2016_vietnam_cambodia.jpg  'vietnam_cambodia' %}
+
+- July: Raising sun at the top of Mt Fuji
+
+{% img center https://dl.dropboxusercontent.com/u/14814182/blog/2016_fujisan.jpg  'fuji' %}
+
+- August: Hawaii is the place to be. Period. 
+
+{% img center https://dl.dropboxusercontent.com/u/14814182/blog/2016_hawaii.jpg  'hawaii' %}
+
+- December: Vienna is the European capital of Xmas
+
+{% img center https://dl.dropboxusercontent.com/u/14814182/blog/2016_austria.jpg  'austria' %}
+
+I hope 2017 is as good as 2016, although I'd like to make some changes... 
+
+Happy New Year everyone
+
+\\\psgonza
+
+Related: [2015 in photos](https://bynario.com/2015-12-31-bye-2016-hello-2016.html), [2014 in photos](https://bynario.com/2015-01-10-bye-2024-hello-2015.html)
