@@ -24,7 +24,7 @@ Saying hello to another year with some pictures... 2016 is been a good year, bot
 
 {% img center https://dl.dropboxusercontent.com/u/14814182/blog/2016_hawaii.jpg  'hawaii' %}
 
-- December: Vienna is the European capital of Xmas
+- December: Vienna (European capital of Xmas) & Salzburg 
 
 {% img center https://dl.dropboxusercontent.com/u/14814182/blog/2016_austria.jpg  'austria' %}
 
