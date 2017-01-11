@@ -16,12 +16,12 @@ In order to use it, you just need to export your feedly subscriptios (you will g
 
 Usage:
 
-` python3 feedly_checker.py myfeedlyrss.opml `
+` # python3 feedly_checker.py myfeedlyrss.opml `
 
 
 Code:
 
-`
+```
 #!/usr/bin/python3
 import os
 import sys
@@ -111,8 +111,10 @@ print("%d wrong entries found" % (len(errors)))
 clean_xml(input_file, errors)
 
 sys.exit(0)
-`
+```
 
 As usual, there is ***a lot*** of room for improvement... 
 1. It is not quick, because it is single-thread, and it has to wait for the http connection to timeout.
 2. Any error code above 400 will make the link to be removed... Some error codes 5xx are "temporary server errors", but after a couple of executions,those as well.
+
+\\\psgonza
