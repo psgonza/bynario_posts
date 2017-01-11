@@ -113,8 +113,9 @@ clean_xml(input_file, errors)
 sys.exit(0)
 ```
 
-As usual, there is ***a lot*** of room for improvement... 
-1. It is not quick, because it is single-thread, and it has to wait for the http connection to timeout.
-2. Any error code above 400 will make the link to be removed... Some error codes 5xx are "temporary server errors", but after a couple of executions,those as well.
+It's been a quick excersice (POC?), so there is ***a lot*** of room for improvement... 
+
+1. It is not fast, because it is single-thread, and it has to wait for the http connection to timeout. 
+2. Any error code above 400 will make the link to be removed... Some error codes 5xx are "temporary server errors", but they will be deteled as well... It'd need some extra work
 
 \\\psgonza
