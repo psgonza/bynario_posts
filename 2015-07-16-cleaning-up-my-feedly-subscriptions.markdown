@@ -3,11 +3,10 @@ date: 2015-07-16 10:10:10
 slug: 2015-07-16-cleaning-up-my-feedly-subscriptions
 tag: python, rss, scripts
 category: posts
-status: draft
 
-(I wrote this post in my way back to the old continent... According to the map, we were flying above [Jarenga river](https://en.wikipedia.org/wiki/Yarenga_River), in the mother Russia) 
+(I wrote this post in my way back to the old continent... According to the map, we were flying over [Jarenga river](https://en.wikipedia.org/wiki/Yarenga_River), in the mother Russia) 
 
-I don't know about you, but I have been using RSS clients since, well, foverer I would say... First [Akregator](https://www.kde.org/applications/internet/akregator/) in KDE, then Google Reader (I still wonder why Google had to shut it down) and finally, as most of the people did, I moved to [Feedly](http://feedly.com), and I am pretty happy with it, no complains at all.
+I don't know you, but I have been using RSS clients since, well, foverer I'd say... First [Akregator](https://www.kde.org/applications/internet/akregator/) in KDE, then Google Reader (I still wonder why Google had to shut it down) and finally, as most of the people did, I moved to [Feedly](http://feedly.com), and I am pretty happy with it, no complains at all.
 
 A few days ago I was taking a look at my RSS subscriptions and there were more than 400 websites that I have been adding during all these years, so I deciced to clean it up a little bit using Python.
 
@@ -17,13 +16,12 @@ In order to use it, you just need to export your feedly subscriptios (you will g
 
 Usage:
 
-```
-python3 feedly_checker.py myfeedlyrss.opml
-´´´
+` python3 feedly_checker.py myfeedlyrss.opml `
+
 
 Code:
 
-```
+`
 #!/usr/bin/python3
 import os
 import sys
@@ -113,7 +111,7 @@ print("%d wrong entries found" % (len(errors)))
 clean_xml(input_file, errors)
 
 sys.exit(0)
-```
+`
 
 As usual, there is ***a lot*** of room for improvement... 
 1. It is not quick, because it is single-thread, and it has to wait for the http connection to timeout.
