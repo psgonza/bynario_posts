@@ -15,23 +15,16 @@ Here they go:
 ** 1) The classics: **
 
 - Work out more often: At least 3 times per week. No matter if it rains or snows. 
-
 - Eat (more) healthy: It seems I'll be stuck in Spain for a few months (at least until April), so it will be a good opportunity to prepare some green juices (I bought a blender a couple of years ago, and I think I've turned it on 2 times). 
-
 - Read (more) books: [Goodreads](https://www.goodreads.com) helps me to track my reading habits... And they are far from impressive, around 12 books per year. It doesn't sound too bad, but considering I don't have family responsibilities, it is not enough. I think I should blame [Netflix](https://netflix.com) for this :) 
-
 - Study something new: There are countless online courses nowadays available for free. I've already done a couple of them in [edX](https://www.edx.org/) and I'd like to do more. [Coursera](https://www.coursera.org) has some really interesting courses as well. 
-
 - Improve my English pronunciation: My English is quite good, but still sounds like a spaniard speaking English. 
 
 ** 2) Job related: **
 
 - Look for a different role/position: I've been doing pretty much the same stuff for way too long. Time to change. Period.
-
 - Ramp up my python skills: I am kind of stuck with Python. It is enough for my current role (system engineering in a big telco, not development) but I'd say it is not good enough if I want to do something different (more IT related).  
-
 - Learn some new languages: Go? 
-
 - Ansible: I've been playing with [Ansible](https://www.ansible.com/) every now and then for a couple of years, creating some playbooks for myself, but nothing fancy. I don't have the opportunity to use it in my current gig, so I'd need to look for a way to include it in my daily work. 
 
 ** 3) Hobby related: **
