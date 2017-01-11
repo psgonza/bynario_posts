@@ -1,0 +1,38 @@
+Title: 2017 resolutions
+Date: 2017-01-11 11:11:17 +0200
+Slug: 2017-01-11-2017-resolutions
+category: posts
+tag: bynario
+
+{% img center https://dl.dropboxusercontent.com/u/14814182/blog/goals2017.jpg  '2017resolutions' %}
+
+Another entry in my personal online notebook (considering the number of visits of this site, I don't think it should be called blog or website)
+
+We are only 11 day into the new year, so it is not too late for my 2017 resolutions. I'd rather post them here than keep them in a piece of paper on my desktop because, apparently, making goals "public" helps to succeed (or I can be publicly shamed at the end of the year)
+
+Here they go:
+
+** 1) The classics: **
+- Work out more often: At least 3 times per week. No matter if it rains or snows.
+- Eat (more) healthy: It seems I'll be stuck in Spain for a few months (at least until April), so it will be a good opportunity to prepare some green juices (I bought a blender a couple of years ago, and I think I've turned it on 2 times)
+- Read (more) books: [Goodreads](https://www.goodreads.com) helps me to track my reading habits... And they are far from impressive, around 12 books per year. It doesn't sound too bad, but considering I don't have family responsibilities, it is not enough. I think I should blame [Netflix](https://netflix.com) for this :)
+- Study something new: There are countless online courses nowadays available for free. I've already done a couple of them in [edX](https://www.edx.org/) and I'd like to do more. [Coursera](https://www.coursera.org) has some really interesting courses as well.
+- Improve my English pronunciation: My English is quite good, but still sounds like a spaniard speaking English.
+
+** 2) Job related: **
+- Look for a different role/position: I've been doing pretty much the same stuff for way too long. Time to change. Period
+- Ramp up my python skills: I am kind of stuck with Python. It is enough for my current role (system engineering in a big telco, not development) but I'd say it is not good enough if I want to do something different (more IT related). 
+- Learn some new languages: Go?
+- Ansible: I've been playing with Ansible every now and then for a couple of years, creating some playbooks for myself, but nothing fancy. I don't have the opportunity to use it in my current gig, so I'd need to look for a way to include it in my daily work.
+
+** 3) Hobby related: **
+- Fix my home network: 1 ISP router + 1 AP router + 1 openWRT (as firewall) + 1 NAS + several PC/laptops/smartphones/raspberry pi's = a hell of a mess.
+- Soldering: I have a bunch of [ESP8266 chips](https://en.wikipedia.org/wiki/ESP8266) laying around in a box. I should put them to good use.
+- Photo library housekeeping: I have traveled a lot these past years, and I have tons of photos in my NAS that I have not even seen. It needs a cleanup.
+- Post more (and better): I registered this domain back in 2005... And, even though no one reads this (the number of daily page reads is close to zero), I like to post stuff here. It's a good way to keep things available (thanks to [github](https:///github.com) of course). I'd like to post more stuff, and if possible, more interesting.
+
+I'd say this should be enough for 2017. 
+
+\\\psgonza
+
+
