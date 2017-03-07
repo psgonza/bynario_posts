@@ -25,9 +25,9 @@ control = 0
 # Alphabet used as reference
 source = string.ascii_uppercase
 
-#Creating the Vigenere Square. A 26x26 matrix. 
-# In the example provided by the book, instead of using the regular alphabet as reference, we shift the items, so 
-# so the column used as reference doesn't start in A, but in B
+# Creating the Vigenere Square. A 26x26 matrix. 
+# In the example provided by the book, instead of using the regular alphabet as reference 
+# we shift the items, so the column used as reference doesn't start in A, but in B
 for row in range(len(source)):
     matrix.append([ x for i,x in enumerate(source) if i > row ])   
     for i,x in enumerate(source):
