@@ -55,10 +55,14 @@ for x,y in encryption_tuple:
         ref_row = matrix[0].index(y)
         ciphertext.append(matrix[ref_row][source.index(x)])
 
-# Print results
+# Print guide
+print("-> Reference:")        
+print("   " + ' '.join([x for x in source]))
+# Printing Vigenere square
 print("-> Square:")        
-for i in matrix:
-    print(' '.join(i))
+for id,i in enumerate(matrix,1):
+    print("{:02d} {}".format(id,' '.join(i)))
+# Print results
 print("-> Key: {0}".format(mykey))
 print("-> Input text: {0}".format(input_text))
 print("-> Output text: {0}".format(''.join(ciphertext)))
@@ -66,37 +70,66 @@ print("-> Output text: {0}".format(''.join(ciphertext)))
 
 I stored the code in [GITHUB](https://github.com/psgonza/bynario/blob/master/simple_vinegere_cipher.py).
 
+In my case, as in the book, I have used "WHITE" as keyword, and the string to cipher is hardcoded in the script (input_text)
+
+The main step is to map the input_text("en un lugar...") with the keyword("WHITE"), so we end up with something like this:
+
+```
+('E', 'W')
+('N', 'H')
+(' ', ' ')
+('U', 'I')
+('N', 'T')
+(' ', ' ')
+('L', 'E')
+('U', 'W')
+('G', 'H')
+('A', 'I')
+('R', 'T')
+(' ', ' ')
+('D', 'E')
+[...]
+```
+
+- The keyword will be repeated over and over until input_text string finishes
+- For the sake of clarity, I haven't stripped the white spaces or any other punctuation symbol from the input message, but it makes the cipher (even) weaker.
+
+Those tuples are going to be used to look for the letter to replace the actual symbol. For example: In order to cipher "E", we will use the row 22, as is the one starting by "W", therefore, the letter "E" will be replaced by "A". Next letter is "N", and we will use row 7, so it will be replaced by "U", and so on...
+
 Not very likely to replace [opengpg](https://gnupg.org/), but it works:
 
 ```
 $ python vigenere_cipher.py
+-> Reference:
+   A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 -> Square:
-B C D E F G H I J K L M N O P Q R S T U V W X Y Z A
-C D E F G H I J K L M N O P Q R S T U V W X Y Z A B
-D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
-E F G H I J K L M N O P Q R S T U V W X Y Z A B C D
-F G H I J K L M N O P Q R S T U V W X Y Z A B C D E
-G H I J K L M N O P Q R S T U V W X Y Z A B C D E F
-H I J K L M N O P Q R S T U V W X Y Z A B C D E F G
-I J K L M N O P Q R S T U V W X Y Z A B C D E F G H
-J K L M N O P Q R S T U V W X Y Z A B C D E F G H I
-K L M N O P Q R S T U V W X Y Z A B C D E F G H I J
-L M N O P Q R S T U V W X Y Z A B C D E F G H I J K
-M N O P Q R S T U V W X Y Z A B C D E F G H I J K L
-N O P Q R S T U V W X Y Z A B C D E F G H I J K L M
-O P Q R S T U V W X Y Z A B C D E F G H I J K L M N
-P Q R S T U V W X Y Z A B C D E F G H I J K L M N O
-Q R S T U V W X Y Z A B C D E F G H I J K L M N O P
-R S T U V W X Y Z A B C D E F G H I J K L M N O P Q
-S T U V W X Y Z A B C D E F G H I J K L M N O P Q R
-T U V W X Y Z A B C D E F G H I J K L M N O P Q R S
-U V W X Y Z A B C D E F G H I J K L M N O P Q R S T
-V W X Y Z A B C D E F G H I J K L M N O P Q R S T U
-W X Y Z A B C D E F G H I J K L M N O P Q R S T U V
-X Y Z A B C D E F G H I J K L M N O P Q R S T U V W
-Y Z A B C D E F G H I J K L M N O P Q R S T U V W X
-Z A B C D E F G H I J K L M N O P Q R S T U V W X Y
-A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+01 B C D E F G H I J K L M N O P Q R S T U V W X Y Z A
+02 C D E F G H I J K L M N O P Q R S T U V W X Y Z A B
+03 D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+04 E F G H I J K L M N O P Q R S T U V W X Y Z A B C D
+05 F G H I J K L M N O P Q R S T U V W X Y Z A B C D E
+06 G H I J K L M N O P Q R S T U V W X Y Z A B C D E F
+07 H I J K L M N O P Q R S T U V W X Y Z A B C D E F G
+08 I J K L M N O P Q R S T U V W X Y Z A B C D E F G H
+09 J K L M N O P Q R S T U V W X Y Z A B C D E F G H I
+10 K L M N O P Q R S T U V W X Y Z A B C D E F G H I J
+11 L M N O P Q R S T U V W X Y Z A B C D E F G H I J K
+12 M N O P Q R S T U V W X Y Z A B C D E F G H I J K L
+13 N O P Q R S T U V W X Y Z A B C D E F G H I J K L M
+14 O P Q R S T U V W X Y Z A B C D E F G H I J K L M N
+15 P Q R S T U V W X Y Z A B C D E F G H I J K L M N O
+16 Q R S T U V W X Y Z A B C D E F G H I J K L M N O P
+17 R S T U V W X Y Z A B C D E F G H I J K L M N O P Q
+18 S T U V W X Y Z A B C D E F G H I J K L M N O P Q R
+19 T U V W X Y Z A B C D E F G H I J K L M N O P Q R S
+20 U V W X Y Z A B C D E F G H I J K L M N O P Q R S T
+21 V W X Y Z A B C D E F G H I J K L M N O P Q R S T U
+22 W X Y Z A B C D E F G H I J K L M N O P Q R S T U V
+23 X Y Z A B C D E F G H I J K L M N O P Q R S T U V W
+24 Y Z A B C D E F G H I J K L M N O P Q R S T U V W X
+25 Z A B C D E F G H I J K L M N O P Q R S T U V W X Y
+26 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+
 -> Key: WHITE
 -> Input text: en un lugar de la mancha de cuyo nombre no quiero acordarme
 -> Output text: AU CG PQNIK HA SI FEJJPT HA JCRS JVUUVA UW JYELZH EYVZWENTM
