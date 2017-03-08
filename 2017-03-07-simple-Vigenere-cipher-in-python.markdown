@@ -34,7 +34,7 @@ for row in range(len(source)):
         if i <= row: matrix[row].append(x)
       
 # Creating the tuple based on the letter and key. ie:
-# ('D', 'W'), ('I', 'H'), ('V', 'I'), ('E', 'T'), ('R', 'E'), ('T', 'W'), ('T', 'H'), ('R', 'I'), ...        
+# ('D', 'W'), ('I', 'H'), ('V', 'I'), ('E', 'T'), ('R', 'E'), ('T', 'W'), ...        
 # In case special characters are not considered, this is cleaner:
 #   import itertools
 #   text=[ x for x in input_text.upper() if x in string.ascii_letters]
