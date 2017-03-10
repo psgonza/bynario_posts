@@ -13,10 +13,13 @@ In my previous posts I already showed how to use Vigenere square to encryp/decyp
 I'll use the same input, same key, and same alphabets as in previous execises:
 
 *mykey* = "WHITE" 
+
 *input_text* = "en un lugar dela mancha de cuyo nombre no quiero acordarme" 
 
 *Position:*    		     	00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 
+
 *Reference alphabet(M):*  	A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z 
+
 *Key alphabet(K):*		B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z  A 
 
 (We shifted the letters one position, as the author showed in the book, so K alphabet starts in "B" not in "A")
@@ -28,13 +31,17 @@ Now we are going to use numbers instead of the square approach:
 If you remember the first post, the foundation of this cipher is the tuple (letter,key):
 
 INPUT: EN UN LUGAR DE LA MANCHA
+
 KEY:   WH IT EWHIT EW HI TEWHIT
+
 TUPLE: ('E', 'W'),('N', 'H'),('U', 'I'),('N', 'T'), ('L', 'E'),('U', 'W'),[...]
 
 Let's get the positions of each element in the tuple fro M[] and K[]:
 
 *1st tuple:* 'E' is in position 4 in our reference alphabet(M). 'W' is in position 21 in the Key alphabet(K) 
+
 *2nd tuple:* 'N' is in position 13 in M[], 'H' is in position 6 in K[] 
+
 *3rd tuple:* 'U' is in position 20 in M[], 'I' is in position 7 in K[] 
 
 ('4','21'),('13','6'),('20','7'),('13','18'),[...]
@@ -44,8 +51,11 @@ So putting this in the mathematical notation:
 C[i] = (M[i]+K[i]) mod len(M)
 
 C[0] = (4 + 21) % 26 = 25
+
 C[1] = (13 + 6) % 26 = 19
+
 C[2] = (20 + 7) % 26 = 1
+
 [...]
 
 So the letter "E" in postion 4 in M[] will be replaced by the letter in position 25 in K[], which is "A". The same way, the letter "N" in position 13 in M[] will be replaced by the letter in position 19 in K[], which is "U", and so on...
