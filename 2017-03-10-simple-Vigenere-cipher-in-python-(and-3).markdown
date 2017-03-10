@@ -34,7 +34,7 @@ KEY:   WH IT EWHIT EW HI TEWHIT
 TUPLE: ('E', 'W'),('N', 'H'),('U', 'I'),('N', 'T'), ('L', 'E'),('U', 'W'),[...]
 ```
 
-Let's get the positions of each element in the tuple fro M[] and K[]:
+Let's get the positions of each element in the tuple in M[] and K[]:
 
 *1st tuple:* 'E' is in position 4 in our reference alphabet(M). 'W' is in position 21 in the Key alphabet(K)  
 *2nd tuple:* 'N' is in position 13 in M[], 'H' is in position 6 in K[]  
