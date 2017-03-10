@@ -15,9 +15,9 @@ I'll use the same input, same key, and same alphabets as in previous execises:
 ```
 *mykey* = "WHITE" 
 *input_text* = "en un lugar dela mancha de cuyo nombre no quiero acordarme" 
-*Position:*    		     	00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 
-*Reference alphabet(M):*  	A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z 
-*Key alphabet(K):*		B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z  A 
+*Position:*    		  00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 
+*Reference alphabet(M):*  A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z 
+*Key alphabet(K):*	  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z  A 
 ```
 
 (We shifted the letters one position, as the author showed in the book, so K alphabet starts in "B" not in "A")
@@ -84,9 +84,9 @@ TUPLE: ('A', 'W'),('U', 'H'),('C', 'I'),('G', 'T'), ('P', 'E'),('Q', 'W'),('N', 
 
 We have to look for the positon of the each letter of each tuple in alphabet K[]:
 
-*1st tuple:* Positions of letter "A" and "W" in K[], 25 and 21.
-*2nd tuple:* Positions of letter "U" and "H" in K[], 19 and 6.
-*3rd tuple:* C,I -> 1, 7
+*1st tuple:* Positions of letter "A" and "W" in K[], 25 and 21.  
+*2nd tuple:* Positions of letter "U" and "H" in K[], 19 and 6.  
+*3rd tuple:* C,I -> 1, 7  
 
 Now, coming back to the formula:
 
