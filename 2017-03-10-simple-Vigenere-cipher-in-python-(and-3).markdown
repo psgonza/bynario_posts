@@ -15,7 +15,7 @@ I'll use the same input, same key, and same alphabets as in previous exercises:
 ```
 mykey:  "WHITE" 
 input_text:  "en un lugar dela mancha de cuyo nombre no quiero acordarme" 
-Position:		00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 
+Position:		    00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 
 Ref alphabet(M):  	A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z 
 Key alphabet(K):	B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z  A 
 ```
