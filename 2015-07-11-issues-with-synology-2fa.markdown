@@ -8,7 +8,7 @@ Hi there
 
 After a few months in the shelf, today I reconnected my [Synology DS215j](https://www.synology.com/en-global/products/DS215j), and to my surprise, I wasn't able to login via DiskStation GUI due to a problem with my autenthication:
 
-{% img center https://dl.dropboxusercontent.com/u/14814182/blog/synology_ntp_mismatch.jpg 'DSM Error' %}
+{% img center img/synology_ntp_mismatch.jpg 'DSM Error' %}
 
 It was weird because:
 
@@ -17,7 +17,7 @@ It was weird because:
 
 Once in SYNOLOGY CLI, I realized the system time was wrong:
 
-{% img center https://dl.dropboxusercontent.com/u/14814182/blog/synology_2fa_error.png 'ntp mismatch' %}
+{% img center img/synology_2fa_error.png 'ntp mismatch' %}
 
 As you can (hopefully) see in the picture, the time in the SYNOLOGY CLI (23:58:13) differs from the one in web GUI (23:54) (and the system time in my MBP as well)
 
