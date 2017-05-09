@@ -4,7 +4,7 @@ Slug: 2017-01-11-2017-resolutions
 category: posts
 tag: bynario
 
-{% img center https://dl.dropboxusercontent.com/u/14814182/blog/goals2017.jpg  '2017resolutions' %}
+{% img center img/goals2017.jpg  '2017resolutions' %}
 
 Another entry in my personal online notebook (considering the number of visits of this site, I don't think it should be called blog or website)
 
