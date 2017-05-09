@@ -6,7 +6,7 @@ tag: linux
 
 Not sure why, today I remembered about a question from a job interview I made probably 5 years ago... It was a pretty easy question, and my answer was pretty dumb.
 
-#### Q: "Ok, imagine you remove exectuion permissions to chmod... How would you put them back???" 
+#### Q: "Ok, imagine you remove execution permissions to chmod... How would you put them back???" 
 
 #### A: "quick and dirty, I'd copy the binary from the machine sitting next to it". 
 
