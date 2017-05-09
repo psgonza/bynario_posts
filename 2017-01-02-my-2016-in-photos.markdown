@@ -10,23 +10,23 @@ Saying hello to another year with some pictures... 2016 is been a good year, bot
 
 - I've been working in Japan for several months again... Best place for living as expat (IMO)
 
-{% img center https://dl.dropboxusercontent.com/u/14814182/blog/2016_japan.jpg  'Japan' %}
+{% img center img/2016_japan.jpg  'Japan' %}
 
 - April: I never really liked south east Asia that much (too hot for my taste), but I have to say I had a really good time in Vietnam and Cambodia... Looking forward to going back there soon!
 
-{% img center https://dl.dropboxusercontent.com/u/14814182/blog/2016_vietnam_cambodia.jpg  'vietnam_cambodia' %}
+{% img center img/2016_vietnam_cambodia.jpg  'vietnam_cambodia' %}
 
 - July: Raising sun at the top of Mt Fuji
 
-{% img center https://dl.dropboxusercontent.com/u/14814182/blog/2016_fujisan.jpg  'fuji' %}
+{% img center img/2016_fujisan.jpg  'fuji' %}
 
 - August: Hawaii is the place to be. Period. 
 
-{% img center https://dl.dropboxusercontent.com/u/14814182/blog/2016_hawaii.jpg  'hawaii' %}
+{% img center img/2016_hawaii.jpg  'hawaii' %}
 
 - December: Vienna (European capital of Xmas) & Salzburg 
 
-{% img center https://dl.dropboxusercontent.com/u/14814182/blog/2016_austria.jpg  'austria' %}
+{% img center img/2016_austria.jpg  'austria' %}
 
 I hope 2017 is as good as 2016, although I'd like to make some changes... 
 
