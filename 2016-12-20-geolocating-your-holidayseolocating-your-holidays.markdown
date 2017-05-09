@@ -12,7 +12,7 @@ The idea is to generate a web page containing a Google Map with marks of your ph
 
 For instance, I spent a few days in Kauai this summer, and this is the resulting map:
 
-{% img center https://dl.dropboxusercontent.com/u/14814182/blog/20-12-2016-geotagging_map.gif 'Kauai photos timestamp' %}
+{% img center img/20-12-2016-geotagging_map.gif 'Kauai photos timestamp' %}
 
 Each mark is a photo I took, and you can see its timestamp moving the mouse over the marker... 
 
