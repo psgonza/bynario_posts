@@ -11,10 +11,10 @@ Here you have a couple of interesting talks I found in Youtube today.
 
 [John Ousterhout](http://en.wikipedia.org/wiki/John_Ousterhout) - RAMCloud: Scalable High-Performance Storage Entirely in DRAM
 
-{% youtube lcUvU3b5co8 640 400 %}
+https://www.youtube.com/watch?v=lcUvU3b5co8
 
 [Apache Hadoop](http://en.wikipedia.org/wiki/Apache_Hadoop) - Petabytes and Terawatts
 
-{% youtube SS27F-hYWfU 640 480 %}
+https://www.youtube.com/watch?v=SS27F-hYWfU
 
 You can enjoy more videos in the LinkedIn Tech Talks channel in Youtube ([LinkedInTechTalks](http://www.youtube.com/user/LinkedInTechTalks?feature=watch))
