@@ -4,7 +4,7 @@ slug: 2014-08-05-python-easy-xml
 category: posts
 tag: - python , coding , dictionary , tables
 
-{% img center https://dl.dropboxusercontent.com/u/14814182/blog/python-xml.jpg  'xml' %}
+{% img center img/python-xml.jpg  'xml' %}
 
 I would like to continue with another small python example. As in the previous post,this is more like  a "note to self" thing than a educational post (this is not [stackoverflow](http://stackoverflow.com/questions/tagged/python)), but anyway,  I guess it could be handy for someone(it has been for me...)
 
