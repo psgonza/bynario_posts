@@ -4,7 +4,7 @@ category: posts
 tag: photos
 slug: 2011-02-12-photo-london-sunset-from-lambeth-bridge
 
-{% img center http://2.bp.blogspot.com/-UASvextdgd8/TVa_0yyfn6I/AAAAAAAAL-k/dbaVLT5rJmA/s640/DSC_0268_69_70_tonemapped.jpg 640 640 %}
+{% img center img/DSC_0268_69_70_tonemapped.jpg 640 640 %}
 
 - Modelo: NIKON D5000
 - ISO: 200
