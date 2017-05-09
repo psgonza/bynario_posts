@@ -36,7 +36,7 @@ This morning from my corporate laptop:
 
 Et voila, we have the same picture….
 
-{%  img center https://dl.dropboxusercontent.com/u/14814182/blog/2015-07-14-Sharing-images-like-a-pro.jpg  amazon%}
+{%  img center img/2015-07-14-Sharing-images-like-a-pro.jpg  amazon%}
 
 I know this doesn't seem very useful (or yes, who knows?) but you might follow the same approach for other things… For instance, I use pretty much the same thing in Python for embedding an old version of [pexpect]( https://github.com/pexpect/pexpect) module in my scripts
 
