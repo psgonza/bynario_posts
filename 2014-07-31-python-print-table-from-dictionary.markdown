@@ -4,7 +4,7 @@ slug: 2014-07-31-python-print-table-from-dictionary
 category: posts
 tag: python , coding , dictionary , tables
 
-{% img center https://dl.dropboxusercontent.com/u/14814182/blog/python-logo-inkscape.jpg  'python' %}
+{% img center img/python-logo-inkscape.jpg  'python' %}
 
 Hello 
 
@@ -111,7 +111,3 @@ It looks pretty nice, and the code is really simple...
 I hope it helps
 
 Byte!
-
-
-
-
