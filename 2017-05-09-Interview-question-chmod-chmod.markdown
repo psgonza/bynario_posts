@@ -6,9 +6,9 @@ tag: linux
 
 Not sure why, today I remembered about a question from a job interview I made probably 5 years ago... It was a pretty easy question, and my answer was pretty dumb.
 
-# Q: "Ok, imagine you remove exectuion permissions to chmod... How would you put them back???" 
+### Q: "Ok, imagine you remove exectuion permissions to chmod... How would you put them back???" 
 
-### A: "quick and dirty, I'd copy the binary from the machine sitting next to it". 
+#### A: "quick and dirty, I'd copy the binary from the machine sitting next to it". 
 
 How about that? I remember it was very late in the evening (I was working in Tokyo at that time and they called me from Europe), but anyway, there was no excuse. I think they guy who interviewed me is still laughing :)
 
@@ -46,4 +46,4 @@ root@94d9407f1002:/# ls -lrt /bin/chmod
 
 Not sure why this came to my mind today... But in case someone asks you this very same question, don't f$ck it up as I did. Just breathe normally, and think...
 
-///psgonza
+\\\psgonza
