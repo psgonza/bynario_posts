@@ -38,13 +38,13 @@ At the end, it wasn't a big deal. I had been a G.Reader power user for years, bu
 
 I did spent the whole year working long hours and weekends, but at least, I could take a few days off (in two different periods) and visited Iceland and some cities in the US East Coast. Iceland is amazing, it is like Jurasic Park (geologically speaking). You should totally go.
 
-{% img center https://dl.dropboxusercontent.com/u/14814182/blog/DSC_0597.jpg 'Iceland' %}
+{% img center img//DSC_0597.jpg 'Iceland' %}
 
 And again, back to the US... We had a really good time, as usual.
 
-{% img center https://dl.dropboxusercontent.com/u/14814182/blog/DSC_0600.NEF.jpg 'NYC' %}
+{% img center img//DSC_0600.NEF.jpg 'NYC' %}
 
-{% img center https://dl.dropboxusercontent.com/u/14814182/blog/DSC_1057.NEF.jpg 'chicago' %}
+{% img center img//DSC_1057.NEF.jpg 'chicago' %}
 
 I will try to write a few post this year, but I can't promise anything
 
