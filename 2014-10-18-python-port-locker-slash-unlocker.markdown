@@ -7,7 +7,7 @@ If you run you own server (VPS, cloud instances, bare metal, no matter what), I 
 
 There is one thing in particular that drives me crazy. As soon as you expose a machine to the internet, people will be constantly trying to get SSH access:
 
-{% img center https://dl.dropboxusercontent.com/u/14814182/blog/logwatch_print.JPG  'logwatch' %}
+{% img center img/logwatch_print.JPG  'logwatch' %}
 
 Obviously, there are tools that will make your life easier (like [fail2ban](http://www.fail2ban.org/wiki/index.php/Main_Page), totally recommended) and some security tweaks (just Google for "linux server hardening") that you should be doing if you manage your own server, but even with all those things in place, I really don't like people trying to access to my server 24/7... Call me crazy, if you like.
 
