@@ -4,7 +4,7 @@ slug: 2014-02-16-cmd-network-managing
 category: posts
 tag: - windows , networking , coding
 ---
-{% img center https://dl.dropboxusercontent.com/u/14814182/blog/cmd_exe.JPG 'cmd.exe' %}
+{% img center img/cmd_exe.JPG 'cmd.exe' %}
 
 > Updated version of the script. Now it allows you to enable/disable the network interfaces
 
