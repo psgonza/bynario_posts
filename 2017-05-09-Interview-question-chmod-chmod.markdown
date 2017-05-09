@@ -6,7 +6,7 @@ tag: linux
 
 Not sure why, today I remembered about a question from a job interview I made probably 5 years ago... It was a pretty easy question, and my answer was pretty dumb.
 
-### Q: "Ok, imagine you remove exectuion permissions to chmod... How would you put them back???" 
+#### Q: "Ok, imagine you remove exectuion permissions to chmod... How would you put them back???" 
 
 #### A: "quick and dirty, I'd copy the binary from the machine sitting next to it". 
 
@@ -40,8 +40,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> exit()
 
 #Confirming it worked as expected
-root@94d9407f1002:/# ls -lrt /bin/chmod
---wxrw--wt 1 root root 56112 Feb 18  2016 /bin/chmod
+root@94d9407f1002:/# ls -l /bin/chmod
+-rwxr-xr-x 1 root root 56112 Feb 18  2016 /bin/chmod
 ```
 
 Not sure why this came to my mind today... But in case someone asks you this very same question, don't f$ck it up as I did. Just breathe normally, and think...
