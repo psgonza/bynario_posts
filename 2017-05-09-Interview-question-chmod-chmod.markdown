@@ -4,7 +4,7 @@ Slug: 2017-05-09-Interview-question-chmod-chmod
 category: posts
 tag: linux
 
-Not sure why, today I remembered about a question from a job interview I made probably 5 years ago... It was a pretty easy question, and my answer was pretty dumb.
+Not sure why, today I remembered about a question from a job interview I did probably 5 years ago... It was a pretty easy question, and my answer was pretty dumb.
 
 #### Q: "Ok, imagine you remove execution permissions to chmod... How would you put them back???" 
 
