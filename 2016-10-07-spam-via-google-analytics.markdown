@@ -6,6 +6,6 @@ category: posts
 
 I have to give it to them... People are pretty damn creative... Email spam, Whatsapp spam, and why not... [Referral spam](https://en.wikipedia.org/wiki/Referer_spam)!
 
-{% img center img/spam_via_analytics.JPG 'spam' %}
+{% img center /img/spam_via_analytics.JPG 'spam' %}
 
 People should put all this effort and time in making the world a better place

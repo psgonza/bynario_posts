@@ -6,6 +6,6 @@ tag: internet
 
 This reminds me of the good old days, when upgrading Potato or Woody (Debian) took more than 5 minutes :)
 
-{% img center img/upgrading_cygwin.JPG 320 300  %}
+{% img center /img/upgrading_cygwin.JPG 320 300  %}
 
 Doesn't really matter which server I choose... Download speed sucks :)

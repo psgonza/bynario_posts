@@ -4,7 +4,7 @@ date: 2011-07-02 15:22:00
 category: posts
 tag: photos
 
-{% img center img/DSC_0873.jpg 640 640 %}
+{% img center /img/DSC_0873.jpg 640 640 %}
 
 - Modelo: NIKON D5000  
 - ISO:500  

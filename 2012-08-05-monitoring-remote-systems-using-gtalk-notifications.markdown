@@ -6,7 +6,7 @@ tag: xmpp , notifications
 
 Since a few weeks ago I am using a [Raspberry Pi](http://raspberrypi.org) as bittorrent client instead of my old, big and noisy Pentium III 1Ghz
 
-{% img center img/DSC_0321_sm.jpg 'admin' %}
+{% img center /img/DSC_0321_sm.jpg 'admin' %}
 
 I am pretty happy with the change (besides a few issues with the USB/Network controller). I managed to get rid of a big PC case, there are no fans spinning anymore (noiseless), and the power consumption is unbeatable, and I only paid around $40. Win-Win situation, isn't it?.
 
@@ -89,7 +89,7 @@ echo "hello there" | /usr/bin/sendxmpp  -t -u <your_email> -o gmail.com <recipie
 
 Notification received:
 
-{% img center img/gtalk1.jpg %}
+{% img center /img/gtalk1.jpg %}
 
 And now, sending the text from a file:
 
@@ -100,7 +100,7 @@ echo "this is a message send from a text file" > text.txt
 
 Notification received:
 
-{% img center img/gtalk2.jpg %}
+{% img center /img/gtalk2.jpg %}
 
 Working!
 
@@ -133,7 +133,7 @@ crontab -e
 
 The notification received in my Gtalk client:
 
-{% img center img/gtalk3.jpg %}
+{% img center /img/gtalk3.jpg %}
 
 This is just an example, but I am pretty sure you could find a lot of applications to this basic notification system
 

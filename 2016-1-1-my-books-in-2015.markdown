@@ -8,7 +8,7 @@ tag: bynario
  
 It's far from impressive I know (some of my friends are able to read more than 40 books in a year.. don't ask me how) but, despite Netflix, I managed to read 14 books (and I have another two books "in progess"):
 
-{% img center img/goodreads2015.jpg  'goodreads' %}
+{% img center /img/goodreads2015.jpg  'goodreads' %}
 
 My recommendations:
 

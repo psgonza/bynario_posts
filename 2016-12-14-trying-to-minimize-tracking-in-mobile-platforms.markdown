@@ -20,7 +20,7 @@ Quick examples:
 
   a) I was having a discussion with some friends about portable espresso machines (yes, they do exist), so I googled it and went on with my life. Next time I logged in FB, there it was... Portable espresso machine:
 
-{% img center img/photo_2016-12-14_11-38-13.jpg 'ads' %}
+{% img center /img/photo_2016-12-14_11-38-13.jpg 'ads' %}
 
   b) Another discussion about smart trackers, another search and 15 minutes later I am seeing promoted posts in Facebook.
 

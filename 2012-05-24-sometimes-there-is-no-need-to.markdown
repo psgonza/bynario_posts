@@ -6,7 +6,7 @@ tag: linux , internet
 
 No images, no CSS, no fancy ajax or javascript files and more important no flash... Plain and simple text.
 
-{% img center img/lynx.JPG 320 300 'putty_cyg + cygwin 1.7.15 + lynx + wikipedia.org' %}
+{% img center /img/lynx.JPG 320 300 'putty_cyg + cygwin 1.7.15 + lynx + wikipedia.org' %}
 
 Software released in 1992 that keeps rocking (with limitations :P)
 

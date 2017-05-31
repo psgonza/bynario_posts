@@ -4,7 +4,7 @@ slug: 2015-10-30-mobiles-at-home
 tag: technology, quickthoughts
 category: posts
 
-{% img center img/DSC_1869-001.jpg 'mobiles' %}
+{% img center /img/DSC_1869-001.jpg 'mobiles' %}
 
 Those are the mobiles at my place at the moment (only half of them are mine), all of them are in "working" condition, but 90% of them are basically useless... I keep all the old Nokia phones just as a piece of history. 
 

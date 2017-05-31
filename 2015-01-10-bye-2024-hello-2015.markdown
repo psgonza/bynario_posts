@@ -6,7 +6,7 @@ tag: bynario
 
 It is time to say goodbye to 2014... This is how I saw it from my old Samsung Galaxy S3:
  
-{% img center img/2014byphone.JPG  '2014' %}
+{% img center /img/2014byphone.JPG  '2014' %}
 
 (50% business/50% leisure)
 

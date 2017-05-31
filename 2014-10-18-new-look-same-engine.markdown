@@ -13,15 +13,15 @@ So, as you can see, I have modified the CSS of the site to make it cleaner and l
 
 Actually, this is how bynario.com looked like in 2005 (I found this in [archive.org](https://www.archive.org)):
 
-{% img center img/bynarioSS-feb2006.JPG  '2006' %}
+{% img center /img/bynarioSS-feb2006.JPG  '2006' %}
 
 And this is in 2011 (I hosted this site in blogger for a few months):
 
-{% img center img/bynarioSS-oct2011.JPG  '2011' %}
+{% img center /img/bynarioSS-oct2011.JPG  '2011' %}
 
 And finally, since June 2012, I have been running Octopress with just some small modifications over the default theme:
 
-{% img center img/bynarioSS-oct2014.JPG  '2014' %}
+{% img center /img/bynarioSS-oct2014.JPG  '2014' %}
 
 Now I just need to stop procrastinating and post more often... Easier said than done!
 

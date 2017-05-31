@@ -12,7 +12,7 @@ I'd love to attend to more whole-day events like this one (lunch was a plus, but
 
 This is a picture of all the participants:
 
-{% img center img/kubernetes_workshop.jpg  'workshop' %}
+{% img center /img/kubernetes_workshop.jpg  'workshop' %}
 (taken from Shuttlecloud twitter account)
 
 Thanks to [Ivan](https://twitter.com/ipedrazas) and [Alex](https://twitter.com/agonzalezro) for sharing their knowledge, and of course, to [jobandtalent](https://twitter.com/jobandtalentEng) for providing the lunch!

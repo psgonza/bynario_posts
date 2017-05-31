@@ -6,7 +6,7 @@ tag: bynario
 
 We just said goodbye to 2016, and as in [2015](https://bynario.com/2016-1-1-my-books-in-2015.html), here goes my [Goodreads](https://www.goodreads.com) summary:
 
-{% img center img/books2016.gif  'goodreads' %}
+{% img center /img/books2016.gif  'goodreads' %}
 
 - [You're Making Me Hate You](https://www.goodreads.com/book/show/22928857-you-re-making-me-hate-you)
 - [The Three-Body Problem](https://www.goodreads.com/book/show/20518872-the-three-body-problem)

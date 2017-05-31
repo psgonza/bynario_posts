@@ -8,7 +8,7 @@ Last part of my series about Vigenere cipher. (3 post in a row? I am proud of my
 
 In my previous posts I already showed how to use Vigenere square to encrypt/decrypt text, so this time I'll follow the algebraic method described in the [Wikipedia](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher#Algebraic_description):
 
-{% img center /img/vigenere.jpg 'vigenere' %}
+{% img center //img/vigenere.jpg 'vigenere' %}
 
 I'll use the same input, same key, and same alphabets as in previous exercises:
 

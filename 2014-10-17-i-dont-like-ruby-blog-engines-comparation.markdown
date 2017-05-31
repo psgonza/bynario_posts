@@ -23,7 +23,7 @@ Below you can see some facts and personal opinions about the three engines:
     + Add-on plugins
     + 8380 stars in [GitHub](https://github.com/imathis/octopress)
 
-{% img center img/octopress_Capture.JPG octopress %}
+{% img center /img/octopress_Capture.JPG octopress %}
     
 * Tinkerer:
     + Written in Python
@@ -33,7 +33,7 @@ Below you can see some facts and personal opinions about the three engines:
     + Fast
     + 156 stars in [GitHub](https://github.com/vladris/tinkerer)
 
-{% img center img/tinker_Capture.JPG tinkerer %}    
+{% img center /img/tinker_Capture.JPG tinkerer %}    
 
 * Hugo:
     + Written Golang
@@ -44,7 +44,7 @@ Below you can see some facts and personal opinions about the three engines:
     + Oh boy this is FAST.
     + 2239 stars in [GitHub](https://github.com/spf13/hugo)
 
-{% img center img/hugo_Capture.JPG hugo %}
+{% img center /img/hugo_Capture.JPG hugo %}
 
 Besides installing and playing around with them, I decided to run a small benchmark, just to compare the performance of the different engines. Basically this is what I did:
 

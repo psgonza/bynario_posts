@@ -6,10 +6,10 @@ category: posts
 
 Watching [Mr Robot](http://www.imdb.com/title/tt4158110/) Episode 1 (I know, I am kind of late, but I have a lot of TV series in my "backlog") I noticed again they used a wrong IPv4 address... Yes, they talk about rootkits, KDE, DDos, etc, etc, but one of the key details of this first episode it's this  IP address (not the address itself, but what Malek does with it, if you know what I mean...). How come it's so difficult to remember that only values from 0 and 255 are allowed??? (we could discuss whether they are valid IP addresses for hosts or networks but let's keep it simple) 
 
-{% img center img/mrrobotip.jpg '218.108.149.373' %}
+{% img center /img/mrrobotip.jpg '218.108.149.373' %}
 
 And unfortunately this simple error is pretty common in TV shows and movies... The same thing happened several months ago in [Blackhat](http://www.imdb.com/title/tt2717822/?ref_=nv_sr_1), another "hacking" movie:
 
-{% img center img/blackhatip.jpg '157.257.273.12' %}
+{% img center /img/blackhatip.jpg '157.257.273.12' %}
 
 I cannot wait to see what's going to happen when IPv6 finally kicks in :)

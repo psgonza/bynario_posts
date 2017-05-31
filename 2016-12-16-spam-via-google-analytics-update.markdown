@@ -6,11 +6,11 @@ category: posts
 
 I am not saying Russia has anything to do with the US presidential elections results, but checking Google Analytics, the [referral spam](https://bynario.com/2016-10-07-spam-via-google-analytics.html) is kind of "funny"...
 
-{% img center img/16122016_spam.JPG 'spam' %}
+{% img center /img/16122016_spam.JPG 'spam' %}
 
 And the location:
 
-{% img center img/16122016_spam2.JPG 'spam' %}
+{% img center /img/16122016_spam2.JPG 'spam' %}
 
 Apparently a lot people followed their advice and voted for Trump.
 

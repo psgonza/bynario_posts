@@ -8,19 +8,19 @@ Again, it is time to say goodbye to another year... This time to 2015:
  
 Japan:
 
-{% img center img/2015japan.jpg  'japan' %}
+{% img center /img/2015japan.jpg  'japan' %}
 
 China:
 
-{% img center img/2015china.jpg  'china' %}
+{% img center /img/2015china.jpg  'china' %}
 
 Maldives.. By air, land and sea:
 
-{% img center img/2015maldives.jpg  'maldives' %}
+{% img center /img/2015maldives.jpg  'maldives' %}
 
 London:
 
-{% img center img/2015london.jpg  'london' %}
+{% img center /img/2015london.jpg  'london' %}
 
 (50% business/50% leisure)
 
