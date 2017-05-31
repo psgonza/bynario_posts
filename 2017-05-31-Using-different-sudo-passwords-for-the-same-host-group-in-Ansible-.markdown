@@ -8,7 +8,7 @@ I'll write this down here before I forget.
 
 I have 2 VPSs that I manage with Ansible and recently I updated the root password for one of the servers, and my old playbook, which worked fine if all the hosts in the group have the same password, stopped working.
 
-I tried some stuff, until I found out that the way to solve this is described in this link:
+I tried some stuff that didn't work, until I found out that the way to solve this is described in this link:
 
 [Ansible - Become](http://docs.ansible.com/ansible/become.html)
 
@@ -22,7 +22,7 @@ bar.foo.com ansible_user=bar ansible_ssh_private_key_file=/server/id_rsa_bar ans
 
 The variables ```foo_sudo_pass``` and ```bar_sudo_pass``` are the root passwords for each server and they are stored in my Vault file (called passwords.yml).
 
-Those variables will be readed at the time the playbook is executed... You could have something as simple as this:
+Those variables will be readed at the time the playbook is executed... So you could have something as simple as this:
 
 ```
 $ cat upgradeAll.yml
@@ -37,9 +37,9 @@ $ cat upgradeAll.yml
       cache_valid_time: 7200
 ```
 
-And run the playbook with the verbose option to get some more information:
+And run the playbook with the verbose option to get some more information with this command:
 
-```ansible-playbook upgradeAll.yml -e@/server/playbooks/passwords.yml --vault-password-file vault_pass.txt  -v ```
+```$ ansible-playbook upgradeAll.yml -e@/server/playbooks/passwords.yml --vault-password-file vault_pass.txt  -v ```
 
 Let's see an example:
 
@@ -71,6 +71,6 @@ bar.foo.com            : ok=3    changed=1    unreachable=0    failed=0
 $
 ```
 
-It is interesting to notice how I added the extra variables in the command by using ```-e@/server/playbooks/passwords.yml```, otherwise it wont work!
+It is interesting to notice how I added the extra variables in the command by using ```-e@/server/playbooks/passwords.yml```, otherwise it won't work!
 
 Later!
