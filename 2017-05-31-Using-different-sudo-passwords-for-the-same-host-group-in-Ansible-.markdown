@@ -75,6 +75,4 @@ $
 
 It is interesting to notice how I added the extra variables in the command by using ```-e@/server/playbooks/passwords.yml```, otherwise it wont work!
 
-
-
 Later!
