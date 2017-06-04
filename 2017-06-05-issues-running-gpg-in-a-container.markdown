@@ -38,7 +38,7 @@ So... Here comes netstat to the rescue:
 tcp        0      1 192.168.1.10:34340      104.236.209.43:11371    SYN_SENT    8653/gpg2keys_hkp    on (7,10/3/0)
 ```
 
-SYN_SENT? So it was trying to stablish the connection, but there wasn't any response from the remote host... * In that port *
+SYN_SENT? So it was trying to stablish the connection, but there wasn't any response from the remote host... **_In that port_**
 
 It turns out I recently upgraded my internet connection, and the new router allows you to customize the firewall security levels (you know, low, medium, high and paranoid... yeah, I am using the latter). I noticed that port 11371 was not defined in as a "known service", so I wasn't able to reach it from within my home network.  
 
