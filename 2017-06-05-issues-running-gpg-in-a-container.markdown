@@ -2,7 +2,7 @@ Title: Issues running gpg in a container
 Date: 2017-06-05 00:01:17 +0200
 Slug: 2017-06-05-issues-running-gpg-in-a-container
 category: posts
-tag: docker
+tag: docker, networking
 
 In case it helps...
 
@@ -23,22 +23,24 @@ RUN set -x \
         && gosu nobody true
 ```
 
-Especifically, in this line:
+Specifically, in this line:
 
 ```
 gpg --keyserver ha.pool.sks-keyservers.net --recv-keys B42F6819007F00F88E364FD4036A9C25BF357DD4 
 ```
 
-Weird, it is a really simple command... I could ping the keyserver, but it wasn't working, neither in the host machine or inside a container... The response was the same: timeout
+It is a really simple command... I could ping the keyserver, I checked the website and everything looked ok, but it wasn't working, neither in the host machine or inside a container... The response was the same: timeout while getting the keys
 
-So... Our dear friend netstat comes to the rescue:
+So... Here comes netstat to the rescue:
 
 ```
 # netstat -natop | grep gpg
 tcp        0      1 192.168.1.10:34340      104.236.209.43:11371    SYN_SENT    8653/gpg2keys_hkp    on (7,10/3/0)
 ```
 
-It turns out I recently upgraded my internet connection, and the new router allows you to customize the firewall security levels (you know, low, medium, high and paranoid... yeah, I am using the latter). I noticed that port 11371 was not defined in as a "known service", so I wasn't able to reach it from within my home network.  As soon as I allowed the connection to that port:
+It turns out I recently upgraded my internet connection, and the new router allows you to customize the firewall security levels (you know, low, medium, high and paranoid... yeah, I am using the latter). I noticed that port 11371 was not defined in as a "known service", so I wasn't able to reach it from within my home network.  
+
+As soon as I allowed the connection to that port:
 
 ```
 # gpg --keyserver ha.pool.sks-keyservers.net --recv-keys B42F6819007F00F88E364FD4036A9C25BF357DD4
@@ -50,6 +52,6 @@ gpg: Cantidad total procesada: 1
 gpg:               importadas: 1  (RSA: 1)
 ```
 
-So make sure all your ip:port flows are open, even for such a small thing as this one
+So make sure all your ip flows are open, even for such a small thing as this one...
 
 Take care out there!
