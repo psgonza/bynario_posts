@@ -142,24 +142,25 @@ time ./split.awk XXXX.ldif &> /dev/null
 
 All of them generated the exact same output (except the textwrap version that handles the first line in a different way), but the execution time differs:
 
-| File          | Size          | Total # lines         | Total # "services" lines      | Python (textwrap)     | Perl          | Python v1     | Awk           | Python v2     |
-|-------------  |-------        |---------------        |--------------------------     |-------------------    |--------       |--------       |--------       |---------      |
-| test_1.ldif   | 85M           | 861366                | 12034                         | 12,671                | 1,174         | 2,309         | 1,17          | 2,762         |
-| test_2.ldif   | 168M          | 1722760               | 24026                         | 28,232                | 2,206         | 4,618         | 1,95          | 4,107         |
-| ref.ldif      | 251M          | 2584145               | 36220                         | 36,547                | 2,855         | 6,583         | 2,777         | 7,099         |
-| test_3.ldif   | 502M          | 5168290               | 72440                         | 72,399                | 5,819         | 13,494        | 5,101         | 12,146        |
-| test_4.ldif   | 1004M         | 10336580              | 144880                        | 147,118               | 11,716        | 27,285        | 9,344         | 23,349        |
-| test_5.ldif   | 2,0G          | 20673160              | 289760                        | 299,302               | 24,402        | 57,046        | 19,296        | 49,95         |
+| File        	| Size  	| # lines  	| # "services" lines 	| Py (textwrap) 	| Perl   	| Py (v1)  	| Awk    	| Py (v2) 	|
+|-------------	|-------	|----------	|--------------------	|---------------	|--------	|----------	|--------	|---------	|
+| test_1.ldif 	| 85M   	| 861366   	| 12034              	| 12,671        	| 1,174  	| 2,309    	| 1,17   	| 2,762   	|
+| test_2.ldif 	| 168M  	| 1722760  	| 24026              	| 28,232        	| 2,206  	| 4,618    	| 1,95   	| 4,107   	|
+| ref.ldif    	| 251M  	| 2584145  	| 36220              	| 36,547        	| 2,855  	| 6,583    	| 2,777  	| 7,099   	|
+| test_3.ldif 	| 502M  	| 5168290  	| 72440              	| 72,399        	| 5,819  	| 13,494   	| 5,101  	| 12,146  	|
+| test_4.ldif 	| 1004M 	| 10336580 	| 144880             	| 147,118       	| 11,716 	| 27,285   	| 9,344  	| 23,349  	|
+| test_5.ldif 	| 2,0G  	| 20673160 	| 289760             	| 299,302       	| 24,402 	| 57,046   	| 19,296 	| 49,95   	|
 
 It is easier to see in a chart:
 
 {% img center https://raw.githubusercontent.com/psgonza/bynario/master/results_chart.JPG 'results' %}
 
 My takeaways after this small exercise:
-- Awk rocks.
-- Perl's black magic is almost as fast as awk.
-- Python is not really fast at file processing. Yes, there are ways to improve this, by splitting in chunks, parallel processing and whatnot... But it takes more than 15 lines.
-- Stay away of textwrap module for heavy usage.
+
+- Awk rocks. 
+- Perl's black magic is almost as fast as awk. 
+- Python is not really fast at file processing. Yes, there are ways to improve this, by splitting in chunks, parallel processing and whatnot... But it takes more than 15 lines. 
+- Stay away of textwrap module for heavy usage. 
 
 It was fun... Bye!
 
