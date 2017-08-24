@@ -2,7 +2,7 @@ Title: All the images missing... Thanks Dropbox :(
 Date: 2017-05-09 00:01:17 +0200
 Slug: 2017-05-09-all-the-images-missing-thanks-dropbox
 category: posts
-tag: bynario
+tags: bynario
 
 I bet nobody noticed but all the images in the blog were not here anymore... No pictures, no logo, etc. Ooops!
 
