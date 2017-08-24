@@ -2,7 +2,7 @@ Title: SFTP oneliner (as SCP)
 Date: 2017-02-10 12:12:17 +0200
 Slug: 2017-02-10-sftp-oneliner-as-scp
 category: posts
-tag: linux, notetoself
+tags: linux, bash
 
 Quick note to self:
 
