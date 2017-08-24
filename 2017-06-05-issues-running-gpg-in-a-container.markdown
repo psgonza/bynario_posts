@@ -2,7 +2,7 @@ Title: Issues running gpg in a container
 Date: 2017-06-05 00:01:17 +0200
 Slug: 2017-06-05-issues-running-gpg-in-a-container
 category: posts
-tag: docker, networking
+tags: docker,networking
 
 In case it helps...
 
