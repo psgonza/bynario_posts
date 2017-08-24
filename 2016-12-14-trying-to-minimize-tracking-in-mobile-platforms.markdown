@@ -1,7 +1,7 @@
 title: Trying to minimize tracking in mobile platforms
 date: 2016-12-14
 slug: 2016-12-14-trying-to-minimize-tracking-in-mobile-platforms
-tag: internet, privacy, ads
+tags: internet, privacy, ads
 category: posts
 
 Random thoughts about how to reduce your "big data footprint"
