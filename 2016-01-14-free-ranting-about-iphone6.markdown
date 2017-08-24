@@ -2,7 +2,7 @@ Title: Free ranting about iPhone6
 Date: 2016-01-14 1:2:3 +0200
 Slug: 2016-01-14-free-ranting-about-iphone6
 category: posts
-tag: opinion
+tags: opinion
 
 Here's a few things about Apple iPhone6 that have been bugging me lately:
 
