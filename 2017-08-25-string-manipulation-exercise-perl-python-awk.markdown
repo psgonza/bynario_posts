@@ -3,7 +3,7 @@ Date: 2017-08-25 08:25:00 +0200
 Slug: 2017-08-25-string-manipulation-exercise-perl-python-awk
 category: posts
 tag: programming,python,perl,awk
-Status: draft
+
 
 Here comes a small comparation of the performance of Perl, Awk and Python while parsing and splitting lines in a BIG ldif file with thousands or millions of subscriber profiles like [this one](https://raw.githubusercontent.com/psgonza/bynario/master/2017-08-25-string-manipulation_example.ldif) (I created this ldif file as an example, just for the sake of clarity)
 
@@ -80,9 +80,9 @@ with open(ldiffile, "r") as f:
             print(line.strip())
 ```
 
-The results I got were way better, but still, it took more than I expected... Time to give it a try to other tools: AWK and Perl
+The results I got were way better, but still, it took more than I expected... Time to give it a try with other tools: AWK and Perl
 
-Basically I tried to "translate" the python script to awk and perl, almost word by word...
+Basically I "translated" the python script to awk and perl, almost to the letter...
 
 Perl version:
 
@@ -142,14 +142,14 @@ time ./split.awk XXXX.ldif &> /dev/null
 
 All of them generated the exact same output (except the textwrap version that handles the first line in a different way), but the execution time differs:
 
-| File        	| Size  	| # lines  	| # "services" lines 	| Py (textwrap) 	| Perl   	| Py (v1)  	| Awk    	| Py (v2) 	|
-|-------------	|-------	|----------	|--------------------	|---------------	|--------	|----------	|--------	|---------	|
-| test_1.ldif 	| 85M   	| 861366   	| 12034              	| 12,671        	| 1,174  	| 2,309    	| 1,17   	| 2,762   	|
-| test_2.ldif 	| 168M  	| 1722760  	| 24026              	| 28,232        	| 2,206  	| 4,618    	| 1,95   	| 4,107   	|
-| ref.ldif    	| 251M  	| 2584145  	| 36220              	| 36,547        	| 2,855  	| 6,583    	| 2,777  	| 7,099   	|
-| test_3.ldif 	| 502M  	| 5168290  	| 72440              	| 72,399        	| 5,819  	| 13,494   	| 5,101  	| 12,146  	|
-| test_4.ldif 	| 1004M 	| 10336580 	| 144880             	| 147,118       	| 11,716 	| 27,285   	| 9,344  	| 23,349  	|
-| test_5.ldif 	| 2,0G  	| 20673160 	| 289760             	| 299,302       	| 24,402 	| 57,046   	| 19,296 	| 49,95   	|
+| File        | Size  | # lines  | # "services" lines | Py (textwrap) | Perl   | Py (v1)  | Awk    | Py (v2) |
+|-------------|-------|----------|--------------------|---------------|--------|----------|--------|---------|
+| test_1.ldif | 85M   | 861366   | 12034              | 12,671        | 1,174  | 2,309    | 1,17   | 2,762   |
+| test_2.ldif | 168M  | 1722760  | 24026              | 28,232        | 2,206  | 4,618    | 1,95   | 4,107   |
+| ref.ldif    | 251M  | 2584145  | 36220              | 36,547        | 2,855  | 6,583    | 2,777  | 7,099   |
+| test_3.ldif | 502M  | 5168290  | 72440              | 72,399        | 5,819  | 13,494   | 5,101  | 12,146  |
+| test_4.ldif | 1004M | 10336580 | 144880             | 147,118       | 11,716 | 27,285   | 9,344  | 23,349  |
+| test_5.ldif | 2,0G  | 20673160 | 289760             | 299,302       | 24,402 | 57,046   | 19,296 | 49,95   |
 
 It is easier to see in a chart:
 
