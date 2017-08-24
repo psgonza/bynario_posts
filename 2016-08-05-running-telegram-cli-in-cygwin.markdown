@@ -1,7 +1,7 @@
 title: Running telegram-cli in cygwin
 date: 2016-08-05
 slug: 2016-08-05-running-telegram-cli-in-cygwin
-tag: cygwin, windows, telegram
+tags: cygwin, windows, telegram
 category: posts
 
 [Telegram](https://telegram.org/) is a really interesting messaging application... It is secure (well, let's say [secure enough](http://security.stackexchange.com/questions/49782/is-telegram-secure#49802)), fast and multiplatform... Even there is a CLI client!
