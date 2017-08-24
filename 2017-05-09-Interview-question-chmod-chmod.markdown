@@ -2,7 +2,7 @@ Title: Interview question: chmod chmod?
 Date: 2017-05-09 13:13:17 +0200
 Slug: 2017-05-09-Interview-question-chmod-chmod
 category: posts
-tag: linux
+tags: linux, interview
 
 Not sure why, today I remembered about a question from a job interview I did probably 5 years ago... It was a pretty easy question, and my answer was pretty dumb.
 
