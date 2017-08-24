@@ -2,7 +2,7 @@ Title: String manipulation exercise: Perl, Python, Awk
 Date: 2017-08-25 08:25:00 +0200
 Slug: 2017-08-25-string-manipulation-exercise-perl-python-awk
 category: posts
-tag: programming,python,perl,awk
+tags: programming,python,perl,awk
 
 
 Here comes a small comparation of the performance of Perl, Awk and Python while parsing and splitting lines in a BIG ldif file with thousands or millions of subscriber profiles like [this one](https://raw.githubusercontent.com/psgonza/bynario/master/2017-08-25-string-manipulation_example.ldif) (I created this ldif file as an example, just for the sake of clarity)
