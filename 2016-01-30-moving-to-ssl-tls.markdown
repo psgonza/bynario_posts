@@ -2,7 +2,7 @@ Title: Moving to SSL/TLS
 Date: 2016-01-30 2:3:4 +0200
 Slug: 2016-01-30-moving-to-ssl-tls
 category: posts
-tag: bynario, ssl
+tags: bynario, ssl
 
 10 minutes... That's all it takes to configure [HTTPS](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol_Secure) thanks to [Let's Encrypt](https://letsencrypt.org/). So from now on, this blog will be using https by default..
 
