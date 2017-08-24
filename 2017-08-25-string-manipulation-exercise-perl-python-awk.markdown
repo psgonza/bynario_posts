@@ -7,13 +7,13 @@ tag: programming,python,perl,awk
 
 Here comes a small comparation of the performance of Perl, Awk and Python while parsing and splitting lines in a BIG ldif file with thousands or millions of subscriber profiles like [this one](https://raw.githubusercontent.com/psgonza/bynario/master/2017-08-25-string-manipulation_example.ldif) (I created this ldif file as an example, just for the sake of clarity)
 
-As in the example, one of the attibutes in my ldif files was a huge base64 string (more than 10k bytes) in a single line, which is not supported by slapadd/slapd (I have checked LDIF rfc and I don't see any mention to the 4096 bytes limitation, so it could be our own implementation) so the idea was to spit this line into 76 characters lines (as per recommendation)... Something like this:
+As in the example, one of the attributes in my ldif files was a huge base64 string (more than 10k bytes long) in a single line, which is not supported by slapadd/slapd (I have checked LDIF rfc and I don't see any mention to the 4096 bytes limitation, so it could be our own implementation, not sure about this), so the idea was to spit this line into 76 characters lines (as per recommendation)... Something like this:
 
-Original line (short version)
+Original line (short version):
 
 ```
 ...
-key: SSBhbSBoYXBweSB0byBqb2luIHdpdGggeW91IHRvZGF5IGluIHdoYXQgd2lsbCBnbyBkb3duIGluIGhpc3RvcnkgYXMgdGhlIGdyZWF0ZXN0IGRlbW9uc3RyYXRpIGV2ZXJ5IHN0YXRlIGZa
+Service: SSBhbSBoYXBweSB0byBqb2luIHdpdGggeW91IHRvZGF5IGluIHdoYXQgd2lsbCBnbyBkb3duIGluIGhpc3RvcnkgYXMgdGhlIGdyZWF0ZXN0IGRlbW9uc3RyYXRpIGV2ZXJ5IHN0YXRlIGZa
 ...
 
 ```
@@ -22,7 +22,7 @@ Replaced by:
 
 ```
 ...
-key: SSBhbSBoYXBweSB0byBqb2luIHdpdGggeW91IHRvZGF5IGluIHdoYXQgd2lsbCBnbyBkb3
+Service: SSBhbSBoYXBweSB0byBqb2luIHdpdGggeW91IHRvZGF5IGluIHdoYXQgd2lsbCBnbyBkb3
  duIGluIGhpc3RvcnkgYXMgdGhlIGdyZWF0ZXN0IGRlbW9uc3RyYXRpIGV2ZXJ5IHN0YXRlIGZa
 ...
 ```
@@ -52,7 +52,7 @@ with open(ldiffile, "rU") as f:
 
 It was really simple and produced the expected result, but it was ridiculously slow. **RIDICULOUSLY**. Really, difficult to believe...
 
-So I decided to do something similar, but deal with the line split myself:
+So I decided to do something similar, but this time I dealt with the line split myself:
 
 ```
 import sys
@@ -130,7 +130,7 @@ awk '
 
 ```
 
-I used several input files with thousands of lines, executed all the scripts in Cygwin64, discarding the output and then checked the time it took.. Something like this:
+I "faked" several input files with thousands of lines (discarding the output), executed all the scripts in Cygwin64, and then checked the time it took.. Something like this:
 
 ```
 time python3 textwrap.py XXXX.ldif &> /dev/null
@@ -142,18 +142,11 @@ time ./split.awk XXXX.ldif &> /dev/null
 
 All of them generated the exact same output (except the textwrap version that handles the first line in a different way), but the execution time differs:
 
-| File        | Size  | # lines  | # "services" lines | Py (textwrap) | Perl   | Py (v1)  | Awk    | Py (v2) |
-|-------------|-------|----------|--------------------|---------------|--------|----------|--------|---------|
-| test_1.ldif | 85M   | 861366   | 12034              | 12,671        | 1,174  | 2,309    | 1,17   | 2,762   |
-| test_2.ldif | 168M  | 1722760  | 24026              | 28,232        | 2,206  | 4,618    | 1,95   | 4,107   |
-| ref.ldif    | 251M  | 2584145  | 36220              | 36,547        | 2,855  | 6,583    | 2,777  | 7,099   |
-| test_3.ldif | 502M  | 5168290  | 72440              | 72,399        | 5,819  | 13,494   | 5,101  | 12,146  |
-| test_4.ldif | 1004M | 10336580 | 144880             | 147,118       | 11,716 | 27,285   | 9,344  | 23,349  |
-| test_5.ldif | 2,0G  | 20673160 | 289760             | 299,302       | 24,402 | 57,046   | 19,296 | 49,95   |
+{% img center https://raw.githubusercontent.com/psgonza/bynario/master/results_table.JPG 'results_table' %}
 
 It is easier to see in a chart:
 
-{% img center https://raw.githubusercontent.com/psgonza/bynario/master/results_chart.JPG 'results' %}
+{% img center https://raw.githubusercontent.com/psgonza/bynario/master/results_chart.JPG 'results_chart' %}
 
 My takeaways after this small exercise:
 
