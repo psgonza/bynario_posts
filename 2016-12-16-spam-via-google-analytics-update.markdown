@@ -1,7 +1,7 @@
 title: Spam via Google Analytics (update)
 date: 2016-12-16
 slug: 2016-12-16-spam-via-google-analytics-update
-tag: internet, spam, google
+tags: internet, spam, google
 category: posts
 
 I am not saying Russia has anything to do with the US presidential elections results, but checking Google Analytics, the [referral spam](https://bynario.com/2016-10-07-spam-via-google-analytics.html) is kind of "funny"...
