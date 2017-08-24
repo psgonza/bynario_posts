@@ -2,7 +2,7 @@ Title: Using different sudo passwords for the same host group in Ansible
 Date: 2017-05-31 00:01:17 +0200
 Slug: Using-different-sudo-passwords-for-the-same-host-group-in-Ansible
 category: posts
-tag: bynario
+tags: ansible
 
 I'll write this down here before I forget.
 
