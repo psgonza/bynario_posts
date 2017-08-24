@@ -1,9 +1,8 @@
 title: Geolocating your holidays
 date: 2016-12-20
 slug: 2016-12-20-geolocating-your-holidays
-tag: python, geotagging, google
+tags: python, geotagging, google
 category: posts
-taps: python
 
 Hi there
 
