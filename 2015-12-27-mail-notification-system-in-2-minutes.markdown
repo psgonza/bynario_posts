@@ -1,12 +1,12 @@
 title: Mail notification system in 2 minutes
 date: 2015-12-27 11:11:11
 slug: 2015-12-27-mail-notification-system-in-2-minutes
-tag: VPS, linux, monitoring
+tags: linux, monitoring, ssmtp
 category: posts
 
 Quick post... In case you'd like to set up a quick mail notification system for your linux machines, keep reading, otherwise, have a merry Xmas...
 
-I'd like to receive a notification everytime there is a sucessfull ssh login in my VPS, and [swatch](http://linux.die.net/man/1/swatch) + [ssmpt](http://linux.die.net/man/8/ssmtp) make it possible very easily... The idea is to receive a notification in my email every time there is a line in `/var/log/auth.log` containing the strings "sshd" and "Accepted password". ie:
+I'd like to receive a notification everytime there is a sucessfull ssh login in my VPS, and [swatch](http://linux.die.net/man/1/swatch) + [ssmtp](http://linux.die.net/man/8/ssmtp) make it possible very easily... The idea is to receive a notification in my email every time there is a line in `/var/log/auth.log` containing the strings "sshd" and "Accepted password". ie:
 
 ```
 Dec 24 12:42:06 bynario sshd[3258]: Accepted password for myuser from 95.11.176.11 port 31738 ssh2
