@@ -1,7 +1,7 @@
 title: We love you Bash
 date: 2016-02-09 11:11:11
 slug: 2016-02-09-we-love-you-bash
-tag: linux, bash
+tags: linux, bash, python
 category: posts
 
 We love you Bash… but sometimes you are so damn slow
