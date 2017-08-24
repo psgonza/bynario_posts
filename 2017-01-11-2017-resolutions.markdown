@@ -2,7 +2,7 @@ Title: 2017 resolutions
 Date: 2017-01-11 11:11:17 +0200
 Slug: 2017-01-11-2017-resolutions
 category: posts
-tag: bynario
+tags: psgonza,bynario
 
 {% img center /img/goals2017.jpg  '2017resolutions' %}
 
