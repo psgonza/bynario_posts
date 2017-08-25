@@ -2,7 +2,7 @@ title: Sharing images like a "Pr0"
 slug: 2015-07-14-sharing-images-like-a-pro
 date: 2015-07-14 13:00
 category: posts
-tag: images, internet, cli
+tags: images, internet, cli
 
 > Disclaimer: it's summer, we are under a really long heat wave in Spain, so I didn't feel like moving from the couch (you will understand later :D)
 
@@ -35,8 +35,6 @@ This morning from my corporate laptop:
 8. Unzip it: ```gunzip amazon.jpg.gz```
 
 Et voila, we have the same picture….
-
-{%  img center /img/2015-07-14-Sharing-images-like-a-pro.jpg  amazon%}
 
 I know this doesn't seem very useful (or yes, who knows?) but you might follow the same approach for other things… For instance, I use pretty much the same thing in Python for embedding an old version of [pexpect]( https://github.com/pexpect/pexpect) module in my scripts
 
