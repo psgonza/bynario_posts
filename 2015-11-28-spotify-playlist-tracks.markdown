@@ -1,7 +1,7 @@
 title: Spotify playlist tracks
 date: 2015-11-28 11:28:15
 slug: 2015-11-28-spotify-playlist-tracks
-tag: spotify, python
+tags: spotify, python
 category: posts
 
 I've never really understood why Spotify doesn't allow me to export my playlists into text file... I guess there is a reason (I bet they have a good one), but I just don't see it.
