@@ -1,7 +1,7 @@
 title: Quick Thought II - Babel 2.0
 date: 2015-10-10 10:10:10
 slug: 2015-10-10-babel-2.0
-tag: technology, quickthoughts
+tags: technology, quickthoughts
 category: posts
 
 Wouldn't it be easier if we could agree on using just one (ok, let's say two, Apple still think they are different than the rest) instant messenger application???
