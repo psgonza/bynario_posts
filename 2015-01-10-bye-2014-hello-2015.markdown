@@ -1,8 +1,8 @@
 Title: Bye 2014 && Hello 2015
 Date: 2015-01-10 21:41:03 +0200
-Slug: 2015-01-10-bye-2024-hello-2015
+Slug: 2015-01-10-bye-2014-hello-2015
 category: posts
-tag: bynario
+tags: bynario, 2014
 
 It is time to say goodbye to 2014... This is how I saw it from my old Samsung Galaxy S3:
  
