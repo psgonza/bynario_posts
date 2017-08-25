@@ -1,7 +1,7 @@
 title: Quick Thought III - Mobiles at home
 date: 2015-10-30 10:10:10
 slug: 2015-10-30-mobiles-at-home
-tag: technology, quickthoughts
+tags: technology, quickthoughts
 category: posts
 
 {% img center /img/DSC_1869-001.jpg 'mobiles' %}
@@ -17,3 +17,8 @@ A few things come to mind:
 - What the hell happened to you Nokia?? 
  
 As God is my witness (thanks for the quote Scarlett), I'll try not to buy any other smartphone as long as my OnePlus One does the job
+
+** UPDATE Aug 25th 2017 **
+I kept my word!!! Sort of :)
+
+I haven't bought a new phone, but I am using someone else's iphone 6... Reusing is good! 
