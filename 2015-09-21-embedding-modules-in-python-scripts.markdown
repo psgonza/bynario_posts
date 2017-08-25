@@ -1,7 +1,7 @@
 title: Embedding modules in Python scripts
 date: 2015-09-21 10:10:10
 slug: 2015-09-21-embedding-modules-in-python-scripts
-tag: python, scripts
+tags: python, scripts
 category: posts
 
 I am a huge fan of [pexpect](https://github.com/pexpect/pexpect "pexpect"). For those of you who don't know it, it is a module "based" on the same idea as [Expect](http://www.tcl.tk/man/expect5.31/expect.1.html) but in Python.  As its author said:
