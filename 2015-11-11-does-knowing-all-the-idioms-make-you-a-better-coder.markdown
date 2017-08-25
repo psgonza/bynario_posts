@@ -1,7 +1,7 @@
 title: Does knowing all the idioms/built-in functions make you a better coder?
 date: 2015-11-11 11:11:11
 slug: 2015-11-11-does-knowing-all-the-idioms-make-you-a-better-coder
-tag: python, coding, opinion
+tags: python, coding, opinion
 category: posts
 
 (Disclaimer: I do not code for a living...)
