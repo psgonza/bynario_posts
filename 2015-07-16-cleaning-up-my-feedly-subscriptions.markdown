@@ -1,7 +1,7 @@
 title: Cleaning up my feedly subscriptions
 date: 2015-07-16 10:10:10
 slug: 2015-07-16-cleaning-up-my-feedly-subscriptions
-tag: python, rss, scripts
+tags: python, rss, scripts
 category: posts
 
 (I wrote this post in my way back to the old continent... According to the map, we were flying over [Jarenga river](https://en.wikipedia.org/wiki/Yarenga_River), in the mother Russia) 
