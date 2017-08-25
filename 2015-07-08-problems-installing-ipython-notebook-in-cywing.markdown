@@ -2,7 +2,7 @@ Title: Problems installing IPython Notebook in Cygwin (W7)
 Date: 2015-07-08 10:41:04
 Slug: 2015-07-08-problems-installing-ipython-notebook-in-cygwin
 category: posts
-tag: cygwin,windows,ipython
+tags: cygwin,windows,ipython
 
 While trying to "pip install [ipython[notebook]](http://ipython.org/)" in my Cygwin installation (W7), I got this error due to libzmq:
 
