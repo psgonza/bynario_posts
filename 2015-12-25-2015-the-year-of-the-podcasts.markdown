@@ -1,7 +1,7 @@
 title: 2015 The year of the podcasts
 date: 2015-12-25 11:11:11
 slug: 2015-12-25-2015-the-year-of-the-podcasts
-tag: technology, podcasts
+tags: technology, podcasts, 2015
 category: posts
 
 Well, I know I might be terribly late on this, but for me, 2015 has been the year I have (re)discovered the podcasts...
