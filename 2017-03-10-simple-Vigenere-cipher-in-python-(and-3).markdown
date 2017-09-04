@@ -4,11 +4,16 @@ Slug: 2017-03-10-simple-Vigenere-cipher-in-python-(and-3)
 category: posts
 tags: python, books, security
 
+See:
+- [Part 1/3](https://bynario.com/2017-03-07-simple-Vigenere-cipher-in-python.html) 
+- [Part 2/3](https://bynario.com/2017-03-08-simple-Vigenere-cipher-in-python-(2).html) 
+
+
 Last part of my series about Vigenere cipher. (3 post in a row? I am proud of myself :-P)
 
 In my previous posts I already showed how to use Vigenere square to encrypt/decrypt text, so this time I'll follow the algebraic method described in the [Wikipedia](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher#Algebraic_description):
 
-{% img center //img/vigenere.jpg 'vigenere' %}
+{% img center https://bynario.com/img/vigenere.jpg 'vigenere' %}
 
 I'll use the same input, same key, and same alphabets as in previous exercises:
 
