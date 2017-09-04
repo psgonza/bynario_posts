@@ -5,7 +5,8 @@ category: posts
 tags: python, books, security
 
 See:
-[Part 3/3](https://bynario.com/2017-03-10-simple-Vigenere-cipher-in-python-(and-3).html)
+- [Part 1/3](https://bynario.com/2017-03-07-simple-Vigenere-cipher-in-python.html) 
+- [Part 3/3](https://bynario.com/2017-03-10-simple-Vigenere-cipher-in-python-(and-3).html)
 
 Just a small update to my previous post about the [Vigenere cipher](https://bynario.com/2017-03-07-simple-Vigenere-cipher-in-python.html)
 
