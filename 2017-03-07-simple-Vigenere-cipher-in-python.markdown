@@ -2,7 +2,7 @@ Title: Simple Vigenere cipher in Python
 Date: 2017-03-07 13:13:17 +0200
 Slug: 2017-03-07-simple-Vigenere-cipher-in-python
 category: posts
-tag: python, books, security
+tags: python, books, security
 
 See:
 [Part 2/3](https://bynario.com/2017-03-08-simple-Vigenere-cipher-in-python-(2).html)
