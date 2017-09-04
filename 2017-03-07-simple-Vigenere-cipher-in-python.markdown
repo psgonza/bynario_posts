@@ -5,8 +5,8 @@ category: posts
 tags: python, books, security
 
 See:
-[Part 2/3](https://bynario.com/2017-03-08-simple-Vigenere-cipher-in-python-(2).html)
-[Part 3/3](https://bynario.com/2017-03-10-simple-Vigenere-cipher-in-python-(and-3).html)
+- [Part 2/3](https://bynario.com/2017-03-08-simple-Vigenere-cipher-in-python-(2).html)
+- [Part 3/3](https://bynario.com/2017-03-10-simple-Vigenere-cipher-in-python-(and-3).html)
 
 I am currently reading ["The code book"](https://www.goodreads.com/book/show/17994.The_Code_Book) by Simon Singh, and he just described how the [Vigenere cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher) works... I am not coding any Python lately, so I have decided to implement it (real quick), not using any algorithm but manually, as someone would have done 300 years ago, preparing a Vigenere square, and then looking up the values in the table.
 
