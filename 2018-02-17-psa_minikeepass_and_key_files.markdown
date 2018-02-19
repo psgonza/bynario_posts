@@ -20,7 +20,7 @@ When prompted for your password you can enter a password and/or select a key fil
 Note: MiniKeePass will automatically select your key file if it has the same filename as your KeePass file but with a .key extension.
 ```
 
-Basically, you have to upload your data base and the key file ** with the same name **(ie: MyDB.kdb and MyDB.key) to <your_cloud_storage_service>, and then, open both of them with MiniKeePass. Otherwise, all you will see in the Key-file screen is "None". 
+Basically, you have to upload your data base and the key file ** with the same name **(ie: MyDB.kdb and MyDB.key) to your_cloud_storage_service_here, and then, open both of them with MiniKeePass. Otherwise, all you will see in the Key-file screen is "None". 
 
 I learnt it the hard way and I lost 15 minutes of my life trying to import a key file with a different name than the KeePass database.
 
