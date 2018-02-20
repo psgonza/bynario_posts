@@ -9,7 +9,8 @@ In case you plan to use MiniKeePass on your iphone with key files (which I guess
 ```
 Using Key Files
 
-MiniKeePass can open KeePass 1.x/2.x files that use a key file instead of or in addition to a password.
+MiniKeePass can open KeePass 1.x/2.x files that use a key file instead of or in <br>
+addition to a password.
 
 Steps:
 
@@ -17,7 +18,8 @@ Load your KeePass database and key file in MiniKeePass using iTunes, Dropbox, et
 Open your KeePass file in MiniKeePass
 When prompted for your password you can enter a password and/or select a key file
 
-Note: MiniKeePass will automatically select your key file if it has the same filename as your KeePass file but with a .key extension.
+Note: MiniKeePass will automatically select your key file if it has the same <br>
+filename as your KeePass file but with a .key extension.
 ```
 
 Basically, you have to upload your data base and the key file ** with the same name **(ie: MyDB.kdb and MyDB.key) to your_cloud_storage_service_here, and then, open both of them with MiniKeePass. Otherwise, all you will see in the Key-file screen is "None". 
