@@ -9,7 +9,7 @@ In case you plan to use MiniKeePass on your iphone with key files (which I guess
 ```
 Using Key Files
 
-MiniKeePass can open KeePass 1.x/2.x files that use a key file instead of or in <br>
+MiniKeePass can open KeePass 1.x/2.x files that use a key file instead of or in
 addition to a password.
 
 Steps:
@@ -18,7 +18,7 @@ Load your KeePass database and key file in MiniKeePass using iTunes, Dropbox, et
 Open your KeePass file in MiniKeePass
 When prompted for your password you can enter a password and/or select a key file
 
-Note: MiniKeePass will automatically select your key file if it has the same <br>
+Note: MiniKeePass will automatically select your key file if it has the same
 filename as your KeePass file but with a .key extension.
 ```
 
