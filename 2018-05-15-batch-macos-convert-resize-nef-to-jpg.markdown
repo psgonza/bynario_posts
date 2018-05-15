@@ -16,9 +16,12 @@ done
 ```
 
 Above command will:
-  * Go through all the NEF files in current directory 
+  * Go through all the NEF files in current directory
+  
   * Generate a jpg from the original nef file 
+  
   * Set jpg quality at 50% 
+  
   * Resize the image to max 3000px (either width or height, whatever is bigger) 
 
 It took **A WHILE** to process all the files (in my case 1003 pictures), but I'd say it is worthy... I ended up dealing with (aprox) 1MB jpg files, instead of the original 25MB NEF files I had.
