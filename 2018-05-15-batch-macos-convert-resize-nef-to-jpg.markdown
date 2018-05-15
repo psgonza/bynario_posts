@@ -1,4 +1,4 @@
-Title: NEF batch processing in MacOS 
+Title: NEF batch processing in MacOS (from CLI)
 Date: 2018-05-15 00:05:15 +0200
 Slug: 2018-05-15-batch-macos-convert-resize-nef-to-jpg
 category: posts
@@ -16,15 +16,13 @@ done
 ```
 
 Above command will:
-  * Go through all the NEF files in current directory
-  
-  * Generate a jpg from the original nef file 
-  
-  * Set jpg quality at 50% 
-  
-  * Resize the image to max 3000px (either width or height, whatever is bigger) 
 
-It took **A WHILE** to process all the files (in my case 1003 pictures), but I'd say it is worthy... I ended up dealing with (aprox) 1MB jpg files, instead of the original 25MB NEF files I had.
+* Go through all the NEF files in current directory   
+* Generate a jpg from the original nef file    
+* Set jpg quality at 50%    
+* Resize the image to max 3000px (either width or height, whatever is bigger) 
+
+It took **A WHILE** to process all the files (in my case, 1003 pictures), but I'd say it is worthy... I ended up dealing with (aprox) 1MB jpg files, instead of the original 25MB NEF files I had.
 
 I am fairly new to the Mac OS world so I didn't know about [sips](https://ss64.com/osx/sips.html) until 30 min ago, although it has been included by default in Mac OS since 2003...
 
